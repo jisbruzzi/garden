@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheet vue 3</title>
+    <meta name="description" content="Blog de José Ignacio Sbruzzi.">
+    <link rel="stylesheet" href="/garden/css/index.css">
+    <link rel="stylesheet" href="/garden/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/garden/feed/feed.xml" type="application/atom+xml" title="Cuaderno con ideas de José Ignacio Sbruzzi">
+    <link rel="alternate" href="/garden/feed/feed.json" type="application/json" title="Cuaderno con ideas de José Ignacio Sbruzzi">
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/garden/">Cuaderno con ideas de José Ignacio Sbruzzi</a></h1>
+    </header>
+
+    <main class="tmpl-post">
+      <h1>Cheatsheet vue 3</h1>
+
+<time datetime="2021-05-17">17 May 2021</time><a href="/garden/tags/technical/" class="post-tag">technical</a><a href="/garden/tags/cheatsheet/" class="post-tag">cheatsheet</a>
+
+<h1 id="options" tabindex="-1">Options <a class="direct-link" href="#options" aria-hidden="true">#</a></h1>
+<p>Exportadas por <code>&lt;script/&gt;</code> block.</p>
+<ul>
+<li><code>data:Function</code>: init data</li>
+<li><code>props:array&lt;string&gt;|Object</code>:
+<ul>
+<li><code>array&lt;string&gt;</code>: nombres</li>
+<li><code>Object</code>: type ó type-default-required-validator</li>
+</ul>
+</li>
+<li><code>computed:{ [key: string]: Function | { get: Function, set: Function } }</code>: campos computados</li>
+<li><code>methods:{ [key: string]: Function }</code>: methods</li>
+<li><code>watch:{ [key: string]: string | Function | Object | Array}</code>: observar <code>data</code> ó <code>computed</code>. pasa <code>val</code>   y <code>oldVal</code>, o puede ser un nombre de un método, o el key puede ser un path adentro de un objeto</li>
+<li><code>emits:Array&lt;string&gt; | Object</code>: documenta uso de <code>this.$emit('name'ev)</code>. Como objeto se puede pasar una función de validación.</li>
+<li><code>template:string</code> ó <code>render:Function</code>. En el caso de render usa la función <code>h</code> ó jsx</li>
+<li>lifecycle hooks: ver lifecycle</li>
+<li><code>directives:Object</code>: key: directive y value: Object de hooks</li>
+<li><code>components:Object</code>: componentes que se pueden utilizar en el template de este</li>
+<li><code>mixins:Array&lt;Object&gt;</code>: mixins que se combinan en este componente</li>
+<li><code>extends:Object|Function</code>: un mixin.</li>
+<li><code>provide:Object | () =&gt; Object</code>: objetos que pueden ser inyectados por los hijos</li>
+<li><code>inject:Array&lt;string&gt; | { [key: string]: string | Symbol | Object }</code>: ataja los valores provistos y los inyecta en <code>this</code>. Como objeto permite un <code>default</code>.</li>
+<li><code>setup:(props,context)=&gt;void</code>: entry point to Composition API. Called before the component is created. Devuelve <code>Data</code> para el template ó render function.</li>
+<li><code>name</code>: permite autorreferencia y docs</li>
+<li><code>delimiters</code>: default <code>[', ']</code></li>
+<li><code>inheritAttrs:boolean</code> default <code>true</code>. Fallthrough de los attrs adicionales desde la invocación del componente al top-level component del template</li>
+</ul>
+<h1 id="lifecycle" tabindex="-1">lifecycle <a class="direct-link" href="#lifecycle" aria-hidden="true">#</a></h1>
+<p><img src="https://v3.vuejs.org/images/lifecycle.svg?__WB_REVISION__=f4a90248bd51e5ee6261fd079b5dffb5" alt="img"></p>
+<h1 id="instance-api-interesante" tabindex="-1">Instance API interesante <a class="direct-link" href="#instance-api-interesante" aria-hidden="true">#</a></h1>
+<ul>
+<li><code>$el</code>: The root DOM element that the component instance is managing.</li>
+<li><code>$refs</code>: An object of DOM elements and component instances, registered with <code>ref</code> attributes.</li>
+<li><code>$watch:(source:{string | Function},callback:{Function | Object}, options:{deep:boolean,...})</code></li>
+<li><code>$emit(eventName:string,...args)</code></li>
+</ul>
+<h1 id="directives" tabindex="-1">Directives <a class="direct-link" href="#directives" aria-hidden="true">#</a></h1>
+<ul>
+<li><code>v-text</code></li>
+<li><code>v-html</code></li>
+<li><code>v-show</code>: toggles <code>display</code> CSS property</li>
+<li><code>v-if</code></li>
+<li><code>v-else</code></li>
+<li><code>v-else-if</code></li>
+<li><code>v-for</code></li>
+<li><code>v-on:&lt;evento&gt;</code>: shorthand <code>@click</code></li>
+<li><code>v-bind:&lt;key&gt;</code>: shorthand: <code>:href</code>. Con <code>clases</code> y <code>style</code> permite objetos y arrays.</li>
+<li><code>v-model</code>!!!!!</li>
+<li><code>v-slot:&lt;nombre&gt;</code>: para pasar contenido como hijo en distintos slots. Permite pasar props.</li>
+<li><code>v-pre</code>: skip compilation</li>
+<li><code>v-cloak</code>: aplicada automaticamente</li>
+<li><code>v-once</code>: rendered once</li>
+<li><code>v-is</code>: permite cambiar el componente on the fly</li>
+</ul>
+<h1 id="attributes" tabindex="-1">Attributes <a class="direct-link" href="#attributes" aria-hidden="true">#</a></h1>
+<p>se usan con <code>v-bind:</code> casi siempre (osea <code>:</code>)</p>
+<ul>
+<li><code>key</code>: identity for diffing</li>
+<li><code>ref</code>: registers to <code>$refs</code></li>
+<li><code>is</code>: for dynamic components</li>
+</ul>
+<h1 id="built-in-components" tabindex="-1">Built-in components <a class="direct-link" href="#built-in-components" aria-hidden="true">#</a></h1>
+<ul>
+<li><code>component</code>: meta-component usado con attr <code>is</code></li>
+<li><code>transition</code></li>
+<li><code>transition-group</code></li>
+<li><code>keep-alive</code>: cachea hijos para que no se reinicialicen siempre</li>
+<li><code>slot</code>: tiene attr <code>name</code> renderiza slots que se pasaron.</li>
+<li><code>teleport</code>: attr <code>to</code>. Manda los elementos a ese elemento.</li>
+</ul>
+<h1 id="reactivity-api-interesante" tabindex="-1">Reactivity API interesante <a class="direct-link" href="#reactivity-api-interesante" aria-hidden="true">#</a></h1>
+<ul>
+<li><code>reactive:(Object)=&gt;Proxy</code>: devuelve copia reactiva. deep. Hay variantes Shallow.</li>
+<li><code>readonly:(Object)=&gt;Readonly proxy</code>: devuelve copia reactiva readonly. deep. Hay variantes Shallow.</li>
+<li><code>ref:(v)=&gt; {value:Proxy&lt;v&gt;}</code></li>
+<li><code>computed:(fn)=&gt;ref</code> devuelve una reactive ref que cambia automaticamente</li>
+<li><code>watchEffect:fn=&gt;void</code>: re-runs <code>fn</code> cuando las dependencias reactivas cambian</li>
+<li><code>watch(fn=&gt;Object|Ref,(val,oldVal)=&gt;void)</code>: watches fn or Ref and triggers the other fn</li>
+</ul>
+<h1 id="composition-api-interesante" tabindex="-1">Composition API interesante <a class="direct-link" href="#composition-api-interesante" aria-hidden="true">#</a></h1>
+<ul>
+<li>Hooks: se importan desde vue</li>
+<li>provide/inject: se importan desde vue</li>
+</ul>
+
+<hr>
+<ul><li>Next: <a href="/garden/pendientes.html">Tareas pendientes de este digital garden</a></li><li>Previous: <a href="/garden/cheatsheet-redux.html">Cheatsheet Redux</a></li>
+</ul>
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /garden/cheatsheet-vue3.html -->
+  </body>
+</html>

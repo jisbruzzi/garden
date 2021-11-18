@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheet Redux</title>
+    <meta name="description" content="Blog de José Ignacio Sbruzzi.">
+    <link rel="stylesheet" href="/garden/css/index.css">
+    <link rel="stylesheet" href="/garden/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/garden/feed/feed.xml" type="application/atom+xml" title="Cuaderno con ideas de José Ignacio Sbruzzi">
+    <link rel="alternate" href="/garden/feed/feed.json" type="application/json" title="Cuaderno con ideas de José Ignacio Sbruzzi">
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/garden/">Cuaderno con ideas de José Ignacio Sbruzzi</a></h1>
+    </header>
+
+    <main class="tmpl-post">
+      <h1>Cheatsheet Redux</h1>
+
+<time datetime="2021-05-17">17 May 2021</time><a href="/garden/tags/technical/" class="post-tag">technical</a><a href="/garden/tags/cheatsheet/" class="post-tag">cheatsheet</a>
+
+<h1 id="react-redux" tabindex="-1">React - redux <a class="direct-link" href="#react-redux" aria-hidden="true">#</a></h1>
+<h2 id="concepts" tabindex="-1">Concepts <a class="direct-link" href="#concepts" aria-hidden="true">#</a></h2>
+<ul>
+<li>state: the state of the entire application</li>
+<li>action: POJO with a &quot;type&quot; key and needed information.</li>
+<li>reducer: <code>function (state=initialState,action):State</code>. Pure function.</li>
+<li>store:
+<ul>
+<li>Stores current state</li>
+<li>API: <code>getState()</code>, <code>dispatch(action)</code>, <code>subscribe(listener)</code> + unsubscribe</li>
+<li>composition: application state can be large so multiple reducers can have different responsibilities affecting a different part of the state</li>
+</ul>
+</li>
+<li>enhancer: decorator around store</li>
+<li>middleware: <code>store =&gt; next =&gt; action =&gt; {}</code> decorates only <code>dispatch()</code> and there can be many. Set up by the <code>applyMiddleware</code> enhancer.</li>
+</ul>
+<h2 id="react-redux-api" tabindex="-1">react-redux API <a class="direct-link" href="#react-redux-api" aria-hidden="true">#</a></h2>
+<ul>
+<li><code>useDispatch()</code>: returns <code>dispatch(action)</code></li>
+<li><code>useSelector(store=&gt;store.x.y)</code>: returns that value from the store and triggers updates.</li>
+<li><code>&lt;Provider store={store}&gt;</code>: provides a store for hooks</li>
+</ul>
+<h2 id="redux-async" tabindex="-1">redux async <a class="direct-link" href="#redux-async" aria-hidden="true">#</a></h2>
+<p>Using <code>redux-thunk</code> middleware one can use async functions as if they were actions. The async functions receive <code>dispatch</code> and <code>getState</code>.</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">fetchTodos</span><span class="token punctuation">(</span><span class="token parameter">dispatch<span class="token punctuation">,</span> getState</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>	<span class="token keyword">const</span> response <span class="token operator">=</span> <span class="token keyword">await</span> client<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'/fakeApi/todos'</span><span class="token punctuation">)</span><br>	<span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token punctuation">{</span> type<span class="token operator">:</span> <span class="token string">'todos/todosLoaded'</span><span class="token punctuation">,</span> payload<span class="token operator">:</span> response<span class="token punctuation">.</span>todos <span class="token punctuation">}</span><span class="token punctuation">)</span><br><span class="token punctuation">}</span></code></pre>
+
+<hr>
+<ul><li>Next: <a href="/garden/cheatsheet-vue3.html">Cheatsheet vue 3</a></li><li>Previous: <a href="/garden/cheatsheet-phpcake.html">Cheatsheet PHPCake</a></li>
+</ul>
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /garden/cheatsheet-redux.html -->
+  </body>
+</html>

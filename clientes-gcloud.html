@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cómo usar gcloud con un cliente</title>
+    <meta name="description" content="Blog de José Ignacio Sbruzzi.">
+    <link rel="stylesheet" href="/garden/css/index.css">
+    <link rel="stylesheet" href="/garden/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/garden/feed/feed.xml" type="application/atom+xml" title="Cuaderno con ideas de José Ignacio Sbruzzi">
+    <link rel="alternate" href="/garden/feed/feed.json" type="application/json" title="Cuaderno con ideas de José Ignacio Sbruzzi">
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/garden/">Cuaderno con ideas de José Ignacio Sbruzzi</a></h1>
+    </header>
+
+    <main class="tmpl-post">
+      <h1>Cómo usar gcloud con un cliente</h1>
+
+<time datetime="2021-02-17">17 Feb 2021</time><a href="/garden/tags/business/" class="post-tag">business</a>
+
+<p>Actualmente mi estrategia de venta consiste en delegarle los costos de infraestructura al cliente si así lo desean. Para que los pagos puedan venir de la tarjeta de crédito del cliente, es necesario que éste se registre en google cloud. Mi proceso de desarrollo implica una primera etapa en la que construyo un prototipo y una parte de la infraestructura en google cloud, y luego transfiero todo lo que creé al cliente.</p>
+<p><a href="https://cloud.google.com/billing/docs/how-to/modify-project">Fuente de toda esta información</a></p>
+<blockquote>
+<p><strong>Paso previo: cambiar el idioma</strong><br>
+Para cambiar el idioma, hay que ir al menú superior derecho (3 puntitos) &gt; preferences &gt; lanuage &amp; region</p>
+</blockquote>
+<p>Cada <em>persona</em> que se registra en google cloud tiene vinculada una <em>billing account</em>. Cada <em>proyecto</em> tiene <strong>1</strong> <em>billing account</em>, y una <em>billing account</em> puede tener <strong>muchos</strong> <em>proyectos</em>.</p>
+<h1 id="proceso-general-para-pasar-los-gastos-al-cliente" tabindex="-1">Proceso general para pasar los gastos al cliente <a class="direct-link" href="#proceso-general-para-pasar-los-gastos-al-cliente" aria-hidden="true">#</a></h1>
+<ol>
+<li>El desarrollador <strong>crea</strong> el <em>proyecto</em>, prototipa sobre éste proyecto, puede realizar una pequeña inversión.</li>
+<li>El cliente se registra en <a href="https://cloud.google.com">cloud.google.com</a></li>
+<li>El cliente va al menú <strong>&quot;sandwich&quot;</strong> (3 líneas) superior izquierdo &gt; <strong>Billing</strong> (tarjeta de crédito) &gt; <strong>Account management</strong> (engranaje)</li>
+<li>En la barra derecha se muestra toda la información de acceso de cualquier cosa de google cloud. El cliente debe hacer click en <strong>+ADD MEMBER</strong>.</li>
+<li>El cliente pone en <strong>&quot;New members&quot;</strong> el mail del desarrollador.</li>
+<li>El cliente Hace click en <strong>Role</strong> y luego donde dice &quot;Type to filter&quot;, escribe <strong>&quot;Billing Account User&quot;</strong>, y lo concede al desarrollador haciendo click en <strong>SAVE</strong></li>
+<li>El desarrollador va a <strong>sandwich</strong> &gt; <strong>Billing</strong> &gt; <strong>Account management</strong>, y clickea en <strong>&quot;Actions&quot;</strong> &gt; <strong>&quot;Change billing&quot;</strong> del proyecto a transferir. Allí va a poder elegir la billing account del cliente.</li>
+<li>(PENDIENTE VERIFICAR SI FUNCIONA) El cliente ahora puede desactivar el rol que me concedió sobre su Billing Account para evitar que el desarrollador (malintencionadamente o por error) agregue más proyectos a su billing account</li>
+</ol>
+<h1 id="proceso-para-pasar-el-proyecto-al-cliente" tabindex="-1">Proceso para pasar el proyecto al cliente <a class="direct-link" href="#proceso-para-pasar-el-proyecto-al-cliente" aria-hidden="true">#</a></h1>
+<p>El desarrollador que creó el proyecto por defecto tiene rol <strong>Owner</strong> en el mismo. Para darle visibilidad absoluta al cliente sobre la infraestructura, debe el desarrollador debe asignarle ese mismo rol al cliente.</p>
+<ol>
+<li>Loggearse en la <a href="(https://console.cloud.google.com)">consola de google cloud</a></li>
+<li>Hamburguesa-&gt;IAM</li>
+<li>Click en el botón &quot;ADD&quot;</li>
+<li>Aparece un formulario, en &quot;New members&quot; poner el mail del cliente, en Role poner &quot;Owner&quot;</li>
+</ol>
+
+<hr>
+<ul><li>Next: <a href="/garden/por-que-renuncie.html">Por qué renuncié</a></li><li>Previous: <a href="/garden/nombres-sin-dns.html">Nombres en vez de IP en tu LAN</a></li>
+</ul>
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /garden/clientes-gcloud.html -->
+  </body>
+</html>

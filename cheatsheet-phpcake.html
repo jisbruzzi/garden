@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheet PHPCake</title>
+    <meta name="description" content="Blog de José Ignacio Sbruzzi.">
+    <link rel="stylesheet" href="/garden/css/index.css">
+    <link rel="stylesheet" href="/garden/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/garden/feed/feed.xml" type="application/atom+xml" title="Cuaderno con ideas de José Ignacio Sbruzzi">
+    <link rel="alternate" href="/garden/feed/feed.json" type="application/json" title="Cuaderno con ideas de José Ignacio Sbruzzi">
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/garden/">Cuaderno con ideas de José Ignacio Sbruzzi</a></h1>
+    </header>
+
+    <main class="tmpl-post">
+      <h1>Cheatsheet PHPCake</h1>
+
+<time datetime="2021-05-17">17 May 2021</time><a href="/garden/tags/technical/" class="post-tag">technical</a><a href="/garden/tags/cheatsheet/" class="post-tag">cheatsheet</a>
+
+<h1 id="dependency-injection" tabindex="-1">Dependency injection <a class="direct-link" href="#dependency-injection" aria-hidden="true">#</a></h1>
+<p>Se incluyen los servicios inyectables como argumentos de los métodos de los controllers. Pueden ser abstractos o concretos. A partir del tipo CakePHP deduce cuál es el inyectable.</p>
+<p>You can use the service container to define ‘application services’. These classes can use models and interact with other objects like loggers and mailers to build re-usable workflows and business logic for your application.</p>
+<p>Los servicios se agregan en el método <code>services</code> de la <code>Application</code>.</p>
+<p>Service providers: agrupan servicios que pueden inyectar y permiten inyectarlos lazily.</p>
+<h1 id="routing" tabindex="-1">routing <a class="direct-link" href="#routing" aria-hidden="true">#</a></h1>
+<p><code>routes.php</code><br>
+como en django, si no es el fallback hay que pasar por kwargs controller, action, params.</p>
+<h1 id="controllers" tabindex="-1">Controllers <a class="direct-link" href="#controllers" aria-hidden="true">#</a></h1>
+<p>definen actions, settean variables de las views (<code>$this-&gt;set</code>) a partir del <code>$this-&gt;request</code>. Renderiza el contenido de los templates (php de toda la vida).</p>
+<h1 id="components" tabindex="-1">Components <a class="direct-link" href="#components" aria-hidden="true">#</a></h1>
+<p>inyectados en el constructor de los controllers usando <code>$this-&gt;loadComponent($name)</code>. Agregan métodos al controller.</p>
+<h1 id="views" tabindex="-1">Views <a class="direct-link" href="#views" aria-hidden="true">#</a></h1>
+<p>algo más groso</p>
+<h2 id="templates" tabindex="-1">Templates <a class="direct-link" href="#templates" aria-hidden="true">#</a></h2>
+<p>Archivos php que reciben las variables setteadas. Tienen herencia y viewblocks para evitar repetir código (parece jinja).</p>
+<h2 id="elements" tabindex="-1">Elements <a class="direct-link" href="#elements" aria-hidden="true">#</a></h2>
+<p>componentes react ssr</p>
+<h2 id="layouts" tabindex="-1">Layouts <a class="direct-link" href="#layouts" aria-hidden="true">#</a></h2>
+<p>templates que envuelven todo</p>
+<h2 id="helpers" tabindex="-1">Helpers <a class="direct-link" href="#helpers" aria-hidden="true">#</a></h2>
+<p>Components como en los controllers pero en la view.</p>
+<h2 id="cells" tabindex="-1">Cells <a class="direct-link" href="#cells" aria-hidden="true">#</a></h2>
+<p>Mini-controllers y views.</p>
+<h2 id="themes" tabindex="-1">Themes <a class="direct-link" href="#themes" aria-hidden="true">#</a></h2>
+<p>plugins que incluyen tamplates</p>
+<h2 id="json-and-xml-views" tabindex="-1">JSON and XML views <a class="direct-link" href="#json-and-xml-views" aria-hidden="true">#</a></h2>
+<p><code>$this-&gt;loadComponent('RequestHandler');</code></p>
+<pre><code>// Set the view vars that have to be serialized.
+$this-&gt;set(compact('articles', 'comments'));
+
+// Specify which view vars JsonView should serialize.
+$this-&gt;viewBuilder()-&gt;setOption('serialize', ['articles', 'comments']);
+</code></pre>
+<h1 id="orm" tabindex="-1">ORM <a class="direct-link" href="#orm" aria-hidden="true">#</a></h1>
+<h2 id="tables" tabindex="-1">Tables <a class="direct-link" href="#tables" aria-hidden="true">#</a></h2>
+<p>pueden no tener nada y cargarse de la db<br>
+These objects provide access to collections of data. They allow you to save new records, modify/delete existing ones, define relations, and perform bulk operations.</p>
+<h2 id="entities" tabindex="-1">Entities <a class="direct-link" href="#entities" aria-hidden="true">#</a></h2>
+<p>Entities represent individual records and allow you to define row/record level behavior &amp; functionality. CakePHP uses naming conventions to link the Table and Entity class together.</p>
+<h2 id="querys" tabindex="-1">querys <a class="direct-link" href="#querys" aria-hidden="true">#</a></h2>
+<p><code>$query = $articles-&gt;find();</code></p>
+<pre><code>// Inside ArticlesController.php
+
+$query = $this-&gt;Articles-&gt;find()
+    -&gt;where(['id &gt;' =&gt; 1])
+    -&gt;all();;
+</code></pre>
+<h2 id="behaviors" tabindex="-1">Behaviors <a class="direct-link" href="#behaviors" aria-hidden="true">#</a></h2>
+<p>lifecycle hooks agrupados para las <code>Table</code></p>
+<h2 id="validating-data" tabindex="-1">Validating data <a class="direct-link" href="#validating-data" aria-hidden="true">#</a></h2>
+<p>métodos que construyen validadores en las <code>Table</code>. Pueden llamar a métodos de la entidad.</p>
+<h2 id="saving-data" tabindex="-1">Saving data <a class="direct-link" href="#saving-data" aria-hidden="true">#</a></h2>
+<pre class="language-php"><code class="language-php"><span class="token variable">$article</span> <span class="token operator">=</span> <span class="token variable">$articlesTable</span><span class="token operator">-></span><span class="token function">newEmptyEntity</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token variable">$articlesTable</span><span class="token operator">-></span><span class="token function">save</span><span class="token punctuation">(</span><span class="token variable">$article</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>By default the save() method will also save one level of associations</p>
+<h2 id="deleting-data" tabindex="-1">Deleting data <a class="direct-link" href="#deleting-data" aria-hidden="true">#</a></h2>
+<pre class="language-php"><code class="language-php"><span class="token comment">// In a controller.</span><br><span class="token variable">$entity</span> <span class="token operator">=</span> <span class="token variable">$this</span><span class="token operator">-></span><span class="token property">Articles</span><span class="token operator">-></span><span class="token function">get</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token variable">$result</span> <span class="token operator">=</span> <span class="token variable">$this</span><span class="token operator">-></span><span class="token property">Articles</span><span class="token operator">-></span><span class="token function">delete</span><span class="token punctuation">(</span><span class="token variable">$entity</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<h2 id="asociations-linking-tables-together" tabindex="-1">Asociations - linking Tables together <a class="direct-link" href="#asociations-linking-tables-together" aria-hidden="true">#</a></h2>
+<pre class="language-php"><code class="language-php"><span class="token variable">$this</span><span class="token operator">-></span><span class="token function">hasMany</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'Comments'</span><span class="token punctuation">)</span></code></pre>
+<h1 id="events-system" tabindex="-1">Events system <a class="direct-link" href="#events-system" aria-hidden="true">#</a></h1>
+<pre class="language-php"><code class="language-php"><span class="token variable">$event</span> <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Event</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'Model.Order.afterPlace'</span><span class="token punctuation">,</span> <span class="token variable">$this</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><br>    <span class="token string single-quoted-string">'order'</span> <span class="token operator">=></span> <span class="token variable">$order</span><br><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token variable">$this</span><span class="token operator">-></span><span class="token function">getEventManager</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-></span><span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token variable">$event</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<pre class="language-php"><code class="language-php"><span class="token variable">$this</span><span class="token operator">-></span><span class="token property">Orders</span><span class="token operator">-></span><span class="token function">getEventManager</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-></span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'Model.Order.afterPlace'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token variable">$event</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token class-name static-context">Log</span><span class="token operator">::</span><span class="token function">write</span><span class="token punctuation">(</span><br>        <span class="token string single-quoted-string">'info'</span><span class="token punctuation">,</span><br>        <span class="token string single-quoted-string">'A new order was placed with id: '</span> <span class="token operator">.</span> <span class="token variable">$event</span><span class="token operator">-></span><span class="token function">getSubject</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-></span><span class="token property">id</span><br>    <span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<h1 id="rest" tabindex="-1">REST <a class="direct-link" href="#rest" aria-hidden="true">#</a></h1>
+<pre class="language-php"><code class="language-php"><span class="token variable">$routes</span><span class="token operator">-></span><span class="token function">scope</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'/api'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token class-name type-declaration">RouteBuilder</span> <span class="token variable">$routes</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token variable">$routes</span><span class="token operator">-></span><span class="token function">resources</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'Articles'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token class-name type-declaration">RouteBuilder</span> <span class="token variable">$routes</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>        <span class="token variable">$routes</span><span class="token operator">-></span><span class="token function">resources</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'Comments'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>Para que traduzca bien los verbos HTTP.</p>
+<h1 id="plugins" tabindex="-1">Plugins <a class="direct-link" href="#plugins" aria-hidden="true">#</a></h1>
+<p>Son paquetes externos que incluyen todo y hacés en bootstrap <code> $this-&gt;addPlugin('AcmeCorp/ContactManager');</code><br>
+Son las apps de django.</p>
+<h1 id="auth" tabindex="-1">Auth <a class="direct-link" href="#auth" aria-hidden="true">#</a></h1>
+<p>plugin de authentication, hay que hacer acciones de login</p>
+
+<hr>
+<ul><li>Next: <a href="/garden/cheatsheet-redux.html">Cheatsheet Redux</a></li><li>Previous: <a href="/garden/raspotify-rpi.html">Cómo usar una raspberry pi como receptor de spotify</a></li>
+</ul>
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /garden/cheatsheet-phpcake.html -->
+  </body>
+</html>

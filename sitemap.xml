@@ -2,32 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://jisbruzzi.github.io/garden/posts/firstpost/</loc>
-    <lastmod>2018-05-01</lastmod>
+    <loc>https://jisbruzzi.github.io/garden/comunicacion.html</loc>
+    <lastmod>2021-02-16</lastmod>
   </url>
   
   <url>
-    <loc>https://jisbruzzi.github.io/garden/posts/secondpost/</loc>
-    <lastmod>2018-07-04</lastmod>
+    <loc>https://jisbruzzi.github.io/garden/hello-world.html</loc>
+    <lastmod>2021-02-16</lastmod>
   </url>
   
   <url>
-    <loc>https://jisbruzzi.github.io/garden/posts/thirdpost/</loc>
-    <lastmod>2018-08-24</lastmod>
+    <loc>https://jisbruzzi.github.io/garden/nombres-sin-dns.html</loc>
+    <lastmod>2021-02-16</lastmod>
   </url>
   
   <url>
-    <loc>https://jisbruzzi.github.io/garden/posts/fourthpost/</loc>
-    <lastmod>2018-09-30</lastmod>
+    <loc>https://jisbruzzi.github.io/garden/clientes-gcloud.html</loc>
+    <lastmod>2021-02-17</lastmod>
   </url>
   
   <url>
-    <loc>https://jisbruzzi.github.io/garden/www/about/</loc>
-    <lastmod>2021-11-18</lastmod>
+    <loc>https://jisbruzzi.github.io/garden/por-que-renuncie.html</loc>
+    <lastmod>2021-02-18</lastmod>
   </url>
   
   <url>
-    <loc>https://jisbruzzi.github.io/garden/posts/</loc>
+    <loc>https://jisbruzzi.github.io/garden/aprender-a-programar.html</loc>
+    <lastmod>2021-02-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jisbruzzi.github.io/garden/docker-disco-externo.html</loc>
+    <lastmod>2021-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jisbruzzi.github.io/garden/raspotify-rpi.html</loc>
+    <lastmod>2021-03-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html</loc>
+    <lastmod>2021-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jisbruzzi.github.io/garden/cheatsheet-redux.html</loc>
+    <lastmod>2021-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jisbruzzi.github.io/garden/cheatsheet-vue3.html</loc>
+    <lastmod>2021-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jisbruzzi.github.io/garden/pendientes.html</loc>
     <lastmod>2021-11-18</lastmod>
   </url>
   
@@ -47,22 +77,27 @@
   </url>
   
   <url>
-    <loc>https://jisbruzzi.github.io/garden/tags/another-tag/</loc>
+    <loc>https://jisbruzzi.github.io/garden/tags/nerd/</loc>
     <lastmod>2021-11-18</lastmod>
   </url>
   
   <url>
-    <loc>https://jisbruzzi.github.io/garden/tags/second-tag/</loc>
+    <loc>https://jisbruzzi.github.io/garden/tags/technical/</loc>
     <lastmod>2021-11-18</lastmod>
   </url>
   
   <url>
-    <loc>https://jisbruzzi.github.io/garden/tags/number-2/</loc>
+    <loc>https://jisbruzzi.github.io/garden/tags/cheatsheet/</loc>
     <lastmod>2021-11-18</lastmod>
   </url>
   
   <url>
-    <loc>https://jisbruzzi.github.io/garden/tags/posts-with-two-tags/</loc>
+    <loc>https://jisbruzzi.github.io/garden/tags/business/</loc>
+    <lastmod>2021-11-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jisbruzzi.github.io/garden/tags/meta/</loc>
     <lastmod>2021-11-18</lastmod>
   </url>
 </urlset>

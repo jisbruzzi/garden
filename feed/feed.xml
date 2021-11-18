@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Blog de José Ignacio Sbruzzi</title>
+	<title>Cuaderno con ideas de José Ignacio Sbruzzi</title>
 	<subtitle>Blog de José Ignacio Sbruzzi</subtitle>
 	
 	<link href="https://jisbruzzi.github.io/garden/feed/feed.xml" rel="self"/>
 	<link href="https://jisbruzzi.github.io/garden"/>
-	<updated>2018-09-30T00:00:00Z</updated>
+	<updated>2021-11-18T11:45:46Z</updated>
 	<id>https://jisbruzzi.github.io/garden</id>
 	<author>
 		<name>José Ignacio Sbruzzi</name>
@@ -13,54 +13,487 @@
 	</author>
 	
 	<entry>
-		<title>This is my fourth post.</title>
-		<link href="https://jisbruzzi.github.io/garden/posts/fourthpost/"/>
-		<updated>2018-09-30T00:00:00Z</updated>
-		<id>https://jisbruzzi.github.io/garden/posts/fourthpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/posts/fourthpost/#section-header&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+		<title>Tareas pendientes de este digital garden</title>
+		<link href="https://jisbruzzi.github.io/garden/pendientes.html"/>
+		<updated>2021-11-18T11:45:46Z</updated>
+		<id>https://jisbruzzi.github.io/garden/pendientes.html</id>
+		<content type="html">&lt;h1 id=&quot;tareas&quot; tabindex=&quot;-1&quot;&gt;Tareas &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/pendientes.html#tareas&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;En todos lados donde dice &amp;quot;posts&amp;quot;, que diga &amp;quot;notes&amp;quot;&lt;/li&gt;
+&lt;li&gt;Soporte para contenido en inglés&lt;/li&gt;
+&lt;li&gt;UI multilingüe&lt;/li&gt;
+&lt;li&gt;Links de obsidian y compatibilidad con obsidian&lt;/li&gt;
+&lt;li&gt;Integración con landing personal&lt;/li&gt;
+&lt;li&gt;Temas de colores para cada tag&lt;/li&gt;
+&lt;li&gt;backlinks&lt;/li&gt;
+&lt;li&gt;notas que pueden describir un tag. Al hacer click en un tag, si tiene una note relacionada te la muestra entonces las notes son tags&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;ideas-de-postsnotas&quot; tabindex=&quot;-1&quot;&gt;Ideas de posts/notas &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/pendientes.html#ideas-de-postsnotas&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;traer mis &amp;quot;resúmenes de libros&amp;quot; (jaja) / páginas &amp;quot;sobre fuentes&amp;quot;: páginas dedicadas a algunas fuentes de información
+&lt;ul&gt;
+&lt;li&gt;Código civil&lt;/li&gt;
+&lt;li&gt;Summa teologiae / Teología&lt;/li&gt;
+&lt;li&gt;Idris&lt;/li&gt;
+&lt;li&gt;Libros de lenguajes de programación&lt;/li&gt;
+&lt;li&gt;Entrada para cada Materia de la facultad&lt;/li&gt;
+&lt;li&gt;Entrada para cada lenguaje de programación&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Post titulado: &amp;quot;lo importante en la vida&amp;quot;&lt;/li&gt;
+&lt;li&gt;Post sobre generadores de sitios estáticos que compara gatsby, nextjs, hugo 11ty&lt;/li&gt;
+&lt;li&gt;Postmorten sobre la aplicación de técnicas de gestión de avanzada para la organización de un casamiento en 3 meses&lt;/li&gt;
+&lt;/ul&gt;
 </content>
 	</entry>
 	
 	<entry>
-		<title>This is my third post.</title>
-		<link href="https://jisbruzzi.github.io/garden/posts/thirdpost/"/>
-		<updated>2018-08-24T00:00:00Z</updated>
-		<id>https://jisbruzzi.github.io/garden/posts/thirdpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// this is a command&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;myCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;ins class=&quot;highlight-line highlight-line-add&quot;&gt;	&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/ins&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;&lt;br /&gt;&lt;del class=&quot;highlight-line highlight-line-remove&quot;&gt;	counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/del&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Test with a line break above this line.&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Test&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/posts/thirdpost/#section-header&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+		<title>Cheatsheet vue 3</title>
+		<link href="https://jisbruzzi.github.io/garden/cheatsheet-vue3.html"/>
+		<updated>2021-05-17T19:32:20Z</updated>
+		<id>https://jisbruzzi.github.io/garden/cheatsheet-vue3.html</id>
+		<content type="html">&lt;h1 id=&quot;options&quot; tabindex=&quot;-1&quot;&gt;Options &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-vue3.html#options&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Exportadas por &lt;code&gt;&amp;lt;script/&amp;gt;&lt;/code&gt; block.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;data:Function&lt;/code&gt;: init data&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;props:array&amp;lt;string&amp;gt;|Object&lt;/code&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;array&amp;lt;string&amp;gt;&lt;/code&gt;: nombres&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Object&lt;/code&gt;: type ó type-default-required-validator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;computed:{ [key: string]: Function | { get: Function, set: Function } }&lt;/code&gt;: campos computados&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;methods:{ [key: string]: Function }&lt;/code&gt;: methods&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;watch:{ [key: string]: string | Function | Object | Array}&lt;/code&gt;: observar &lt;code&gt;data&lt;/code&gt; ó &lt;code&gt;computed&lt;/code&gt;. pasa &lt;code&gt;val&lt;/code&gt;   y &lt;code&gt;oldVal&lt;/code&gt;, o puede ser un nombre de un método, o el key puede ser un path adentro de un objeto&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;emits:Array&amp;lt;string&amp;gt; | Object&lt;/code&gt;: documenta uso de &lt;code&gt;this.$emit(&#39;name&#39;ev)&lt;/code&gt;. Como objeto se puede pasar una función de validación.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;template:string&lt;/code&gt; ó &lt;code&gt;render:Function&lt;/code&gt;. En el caso de render usa la función &lt;code&gt;h&lt;/code&gt; ó jsx&lt;/li&gt;
+&lt;li&gt;lifecycle hooks: ver lifecycle&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;directives:Object&lt;/code&gt;: key: directive y value: Object de hooks&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;components:Object&lt;/code&gt;: componentes que se pueden utilizar en el template de este&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mixins:Array&amp;lt;Object&amp;gt;&lt;/code&gt;: mixins que se combinan en este componente&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;extends:Object|Function&lt;/code&gt;: un mixin.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;provide:Object | () =&amp;gt; Object&lt;/code&gt;: objetos que pueden ser inyectados por los hijos&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;inject:Array&amp;lt;string&amp;gt; | { [key: string]: string | Symbol | Object }&lt;/code&gt;: ataja los valores provistos y los inyecta en &lt;code&gt;this&lt;/code&gt;. Como objeto permite un &lt;code&gt;default&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;setup:(props,context)=&amp;gt;void&lt;/code&gt;: entry point to Composition API. Called before the component is created. Devuelve &lt;code&gt;Data&lt;/code&gt; para el template ó render function.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;name&lt;/code&gt;: permite autorreferencia y docs&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;delimiters&lt;/code&gt;: default &lt;code&gt;[&#39;, &#39;]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;inheritAttrs:boolean&lt;/code&gt; default &lt;code&gt;true&lt;/code&gt;. Fallthrough de los attrs adicionales desde la invocación del componente al top-level component del template&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;lifecycle&quot; tabindex=&quot;-1&quot;&gt;lifecycle &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-vue3.html#lifecycle&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://v3.vuejs.org/images/lifecycle.svg?__WB_REVISION__=f4a90248bd51e5ee6261fd079b5dffb5&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;instance-api-interesante&quot; tabindex=&quot;-1&quot;&gt;Instance API interesante &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-vue3.html#instance-api-interesante&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;$el&lt;/code&gt;: The root DOM element that the component instance is managing.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$refs&lt;/code&gt;: An object of DOM elements and component instances, registered with &lt;code&gt;ref&lt;/code&gt; attributes.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$watch:(source:{string | Function},callback:{Function | Object}, options:{deep:boolean,...})&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$emit(eventName:string,...args)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;directives&quot; tabindex=&quot;-1&quot;&gt;Directives &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-vue3.html#directives&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;v-text&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;v-html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;v-show&lt;/code&gt;: toggles &lt;code&gt;display&lt;/code&gt; CSS property&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;v-if&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;v-else&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;v-else-if&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;v-for&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;v-on:&amp;lt;evento&amp;gt;&lt;/code&gt;: shorthand &lt;code&gt;@click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;v-bind:&amp;lt;key&amp;gt;&lt;/code&gt;: shorthand: &lt;code&gt;:href&lt;/code&gt;. Con &lt;code&gt;clases&lt;/code&gt; y &lt;code&gt;style&lt;/code&gt; permite objetos y arrays.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;v-model&lt;/code&gt;!!!!!&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;v-slot:&amp;lt;nombre&amp;gt;&lt;/code&gt;: para pasar contenido como hijo en distintos slots. Permite pasar props.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;v-pre&lt;/code&gt;: skip compilation&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;v-cloak&lt;/code&gt;: aplicada automaticamente&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;v-once&lt;/code&gt;: rendered once&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;v-is&lt;/code&gt;: permite cambiar el componente on the fly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;attributes&quot; tabindex=&quot;-1&quot;&gt;Attributes &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-vue3.html#attributes&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;se usan con &lt;code&gt;v-bind:&lt;/code&gt; casi siempre (osea &lt;code&gt;:&lt;/code&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;key&lt;/code&gt;: identity for diffing&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ref&lt;/code&gt;: registers to &lt;code&gt;$refs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;is&lt;/code&gt;: for dynamic components&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;built-in-components&quot; tabindex=&quot;-1&quot;&gt;Built-in components &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-vue3.html#built-in-components&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;component&lt;/code&gt;: meta-component usado con attr &lt;code&gt;is&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;transition&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;transition-group&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;keep-alive&lt;/code&gt;: cachea hijos para que no se reinicialicen siempre&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;slot&lt;/code&gt;: tiene attr &lt;code&gt;name&lt;/code&gt; renderiza slots que se pasaron.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;teleport&lt;/code&gt;: attr &lt;code&gt;to&lt;/code&gt;. Manda los elementos a ese elemento.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;reactivity-api-interesante&quot; tabindex=&quot;-1&quot;&gt;Reactivity API interesante &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-vue3.html#reactivity-api-interesante&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;reactive:(Object)=&amp;gt;Proxy&lt;/code&gt;: devuelve copia reactiva. deep. Hay variantes Shallow.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;readonly:(Object)=&amp;gt;Readonly proxy&lt;/code&gt;: devuelve copia reactiva readonly. deep. Hay variantes Shallow.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ref:(v)=&amp;gt; {value:Proxy&amp;lt;v&amp;gt;}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;computed:(fn)=&amp;gt;ref&lt;/code&gt; devuelve una reactive ref que cambia automaticamente&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;watchEffect:fn=&amp;gt;void&lt;/code&gt;: re-runs &lt;code&gt;fn&lt;/code&gt; cuando las dependencias reactivas cambian&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;watch(fn=&amp;gt;Object|Ref,(val,oldVal)=&amp;gt;void)&lt;/code&gt;: watches fn or Ref and triggers the other fn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;composition-api-interesante&quot; tabindex=&quot;-1&quot;&gt;Composition API interesante &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-vue3.html#composition-api-interesante&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Hooks: se importan desde vue&lt;/li&gt;
+&lt;li&gt;provide/inject: se importan desde vue&lt;/li&gt;
+&lt;/ul&gt;
 </content>
 	</entry>
 	
 	<entry>
-		<title>This is my second post.</title>
-		<link href="https://jisbruzzi.github.io/garden/posts/secondpost/"/>
-		<updated>2018-07-04T00:00:00Z</updated>
-		<id>https://jisbruzzi.github.io/garden/posts/secondpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/posts/secondpost/#section-header&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://jisbruzzi.github.io/garden/posts/firstpost/&quot;&gt;First post&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://jisbruzzi.github.io/garden/posts/thirdpost/&quot;&gt;Third post&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+		<title>Cheatsheet Redux</title>
+		<link href="https://jisbruzzi.github.io/garden/cheatsheet-redux.html"/>
+		<updated>2021-05-17T19:32:20Z</updated>
+		<id>https://jisbruzzi.github.io/garden/cheatsheet-redux.html</id>
+		<content type="html">&lt;h1 id=&quot;react-redux&quot; tabindex=&quot;-1&quot;&gt;React - redux &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-redux.html#react-redux&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;concepts&quot; tabindex=&quot;-1&quot;&gt;Concepts &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-redux.html#concepts&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;state: the state of the entire application&lt;/li&gt;
+&lt;li&gt;action: POJO with a &amp;quot;type&amp;quot; key and needed information.&lt;/li&gt;
+&lt;li&gt;reducer: &lt;code&gt;function (state=initialState,action):State&lt;/code&gt;. Pure function.&lt;/li&gt;
+&lt;li&gt;store:
+&lt;ul&gt;
+&lt;li&gt;Stores current state&lt;/li&gt;
+&lt;li&gt;API: &lt;code&gt;getState()&lt;/code&gt;, &lt;code&gt;dispatch(action)&lt;/code&gt;, &lt;code&gt;subscribe(listener)&lt;/code&gt; + unsubscribe&lt;/li&gt;
+&lt;li&gt;composition: application state can be large so multiple reducers can have different responsibilities affecting a different part of the state&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;enhancer: decorator around store&lt;/li&gt;
+&lt;li&gt;middleware: &lt;code&gt;store =&amp;gt; next =&amp;gt; action =&amp;gt; {}&lt;/code&gt; decorates only &lt;code&gt;dispatch()&lt;/code&gt; and there can be many. Set up by the &lt;code&gt;applyMiddleware&lt;/code&gt; enhancer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;react-redux-api&quot; tabindex=&quot;-1&quot;&gt;react-redux API &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-redux.html#react-redux-api&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;useDispatch()&lt;/code&gt;: returns &lt;code&gt;dispatch(action)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;useSelector(store=&amp;gt;store.x.y)&lt;/code&gt;: returns that value from the store and triggers updates.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;Provider store={store}&amp;gt;&lt;/code&gt;: provides a store for hooks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;redux-async&quot; tabindex=&quot;-1&quot;&gt;redux async &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-redux.html#redux-async&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Using &lt;code&gt;redux-thunk&lt;/code&gt; middleware one can use async functions as if they were actions. The async functions receive &lt;code&gt;dispatch&lt;/code&gt; and &lt;code&gt;getState&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fetchTodos&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;dispatch&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; getState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;	&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; response &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; client&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;/fakeApi/todos&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;	&lt;span class=&quot;token function&quot;&gt;dispatch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; type&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;todos/todosLoaded&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; payload&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; response&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;todos &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 </content>
 	</entry>
 	
 	<entry>
-		<title>This is my first post.</title>
-		<link href="https://jisbruzzi.github.io/garden/posts/firstpost/"/>
-		<updated>2018-05-01T00:00:00Z</updated>
-		<id>https://jisbruzzi.github.io/garden/posts/firstpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/posts/firstpost/#section-header&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;// this is a command&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;function myCommand() {&lt;/span&gt;&lt;br /&gt;&lt;mark class=&quot;highlight-line highlight-line-active&quot;&gt;	let counter = 0;&lt;/mark&gt;&lt;br /&gt;&lt;mark class=&quot;highlight-line highlight-line-active&quot;&gt;	counter++;&lt;/mark&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;// Test with a line break above this line.&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;console.log(&#39;Test&#39;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+		<title>Cheatsheet PHPCake</title>
+		<link href="https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html"/>
+		<updated>2021-05-17T19:32:20Z</updated>
+		<id>https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html</id>
+		<content type="html">&lt;h1 id=&quot;dependency-injection&quot; tabindex=&quot;-1&quot;&gt;Dependency injection &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#dependency-injection&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Se incluyen los servicios inyectables como argumentos de los métodos de los controllers. Pueden ser abstractos o concretos. A partir del tipo CakePHP deduce cuál es el inyectable.&lt;/p&gt;
+&lt;p&gt;You can use the service container to define ‘application services’. These classes can use models and interact with other objects like loggers and mailers to build re-usable workflows and business logic for your application.&lt;/p&gt;
+&lt;p&gt;Los servicios se agregan en el método &lt;code&gt;services&lt;/code&gt; de la &lt;code&gt;Application&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Service providers: agrupan servicios que pueden inyectar y permiten inyectarlos lazily.&lt;/p&gt;
+&lt;h1 id=&quot;routing&quot; tabindex=&quot;-1&quot;&gt;routing &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#routing&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;routes.php&lt;/code&gt;&lt;br /&gt;
+como en django, si no es el fallback hay que pasar por kwargs controller, action, params.&lt;/p&gt;
+&lt;h1 id=&quot;controllers&quot; tabindex=&quot;-1&quot;&gt;Controllers &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#controllers&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;definen actions, settean variables de las views (&lt;code&gt;$this-&amp;gt;set&lt;/code&gt;) a partir del &lt;code&gt;$this-&amp;gt;request&lt;/code&gt;. Renderiza el contenido de los templates (php de toda la vida).&lt;/p&gt;
+&lt;h1 id=&quot;components&quot; tabindex=&quot;-1&quot;&gt;Components &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#components&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;inyectados en el constructor de los controllers usando &lt;code&gt;$this-&amp;gt;loadComponent($name)&lt;/code&gt;. Agregan métodos al controller.&lt;/p&gt;
+&lt;h1 id=&quot;views&quot; tabindex=&quot;-1&quot;&gt;Views &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#views&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;algo más groso&lt;/p&gt;
+&lt;h2 id=&quot;templates&quot; tabindex=&quot;-1&quot;&gt;Templates &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#templates&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Archivos php que reciben las variables setteadas. Tienen herencia y viewblocks para evitar repetir código (parece jinja).&lt;/p&gt;
+&lt;h2 id=&quot;elements&quot; tabindex=&quot;-1&quot;&gt;Elements &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#elements&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;componentes react ssr&lt;/p&gt;
+&lt;h2 id=&quot;layouts&quot; tabindex=&quot;-1&quot;&gt;Layouts &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#layouts&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;templates que envuelven todo&lt;/p&gt;
+&lt;h2 id=&quot;helpers&quot; tabindex=&quot;-1&quot;&gt;Helpers &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#helpers&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Components como en los controllers pero en la view.&lt;/p&gt;
+&lt;h2 id=&quot;cells&quot; tabindex=&quot;-1&quot;&gt;Cells &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#cells&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Mini-controllers y views.&lt;/p&gt;
+&lt;h2 id=&quot;themes&quot; tabindex=&quot;-1&quot;&gt;Themes &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#themes&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;plugins que incluyen tamplates&lt;/p&gt;
+&lt;h2 id=&quot;json-and-xml-views&quot; tabindex=&quot;-1&quot;&gt;JSON and XML views &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#json-and-xml-views&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;$this-&amp;gt;loadComponent(&#39;RequestHandler&#39;);&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// Set the view vars that have to be serialized.
+$this-&amp;gt;set(compact(&#39;articles&#39;, &#39;comments&#39;));
+
+// Specify which view vars JsonView should serialize.
+$this-&amp;gt;viewBuilder()-&amp;gt;setOption(&#39;serialize&#39;, [&#39;articles&#39;, &#39;comments&#39;]);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;orm&quot; tabindex=&quot;-1&quot;&gt;ORM &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#orm&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;tables&quot; tabindex=&quot;-1&quot;&gt;Tables &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#tables&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;pueden no tener nada y cargarse de la db&lt;br /&gt;
+These objects provide access to collections of data. They allow you to save new records, modify/delete existing ones, define relations, and perform bulk operations.&lt;/p&gt;
+&lt;h2 id=&quot;entities&quot; tabindex=&quot;-1&quot;&gt;Entities &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#entities&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Entities represent individual records and allow you to define row/record level behavior &amp;amp; functionality. CakePHP uses naming conventions to link the Table and Entity class together.&lt;/p&gt;
+&lt;h2 id=&quot;querys&quot; tabindex=&quot;-1&quot;&gt;querys &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#querys&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;$query = $articles-&amp;gt;find();&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// Inside ArticlesController.php
+
+$query = $this-&amp;gt;Articles-&amp;gt;find()
+    -&amp;gt;where([&#39;id &amp;gt;&#39; =&amp;gt; 1])
+    -&amp;gt;all();;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;behaviors&quot; tabindex=&quot;-1&quot;&gt;Behaviors &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#behaviors&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;lifecycle hooks agrupados para las &lt;code&gt;Table&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;validating-data&quot; tabindex=&quot;-1&quot;&gt;Validating data &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#validating-data&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;métodos que construyen validadores en las &lt;code&gt;Table&lt;/code&gt;. Pueden llamar a métodos de la entidad.&lt;/p&gt;
+&lt;h2 id=&quot;saving-data&quot; tabindex=&quot;-1&quot;&gt;Saving data &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#saving-data&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;pre class=&quot;language-php&quot;&gt;&lt;code class=&quot;language-php&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$article&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$articlesTable&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;newEmptyEntity&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token variable&quot;&gt;$articlesTable&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;save&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$article&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;By default the save() method will also save one level of associations&lt;/p&gt;
+&lt;h2 id=&quot;deleting-data&quot; tabindex=&quot;-1&quot;&gt;Deleting data &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#deleting-data&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;pre class=&quot;language-php&quot;&gt;&lt;code class=&quot;language-php&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// In a controller.&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token variable&quot;&gt;$entity&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$this&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;Articles&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token variable&quot;&gt;$result&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$this&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;Articles&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;delete&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$entity&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;asociations-linking-tables-together&quot; tabindex=&quot;-1&quot;&gt;Asociations - linking Tables together &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#asociations-linking-tables-together&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;pre class=&quot;language-php&quot;&gt;&lt;code class=&quot;language-php&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$this&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;hasMany&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string single-quoted-string&quot;&gt;&#39;Comments&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;events-system&quot; tabindex=&quot;-1&quot;&gt;Events system &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#events-system&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;pre class=&quot;language-php&quot;&gt;&lt;code class=&quot;language-php&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$event&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Event&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string single-quoted-string&quot;&gt;&#39;Model.Order.afterPlace&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token string single-quoted-string&quot;&gt;&#39;order&#39;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$order&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token variable&quot;&gt;$this&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getEventManager&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;dispatch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$event&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;language-php&quot;&gt;&lt;code class=&quot;language-php&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$this&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;Orders&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getEventManager&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string single-quoted-string&quot;&gt;&#39;Model.Order.afterPlace&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$event&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token class-name static-context&quot;&gt;Log&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;br /&gt;        &lt;span class=&quot;token string single-quoted-string&quot;&gt;&#39;info&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;        &lt;span class=&quot;token string single-quoted-string&quot;&gt;&#39;A new order was placed with id: &#39;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$event&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getSubject&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;id&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;rest&quot; tabindex=&quot;-1&quot;&gt;REST &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#rest&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;pre class=&quot;language-php&quot;&gt;&lt;code class=&quot;language-php&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$routes&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;scope&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string single-quoted-string&quot;&gt;&#39;/api&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name type-declaration&quot;&gt;RouteBuilder&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$routes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token variable&quot;&gt;$routes&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;resources&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string single-quoted-string&quot;&gt;&#39;Articles&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name type-declaration&quot;&gt;RouteBuilder&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$routes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;        &lt;span class=&quot;token variable&quot;&gt;$routes&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;resources&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string single-quoted-string&quot;&gt;&#39;Comments&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Para que traduzca bien los verbos HTTP.&lt;/p&gt;
+&lt;h1 id=&quot;plugins&quot; tabindex=&quot;-1&quot;&gt;Plugins &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#plugins&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Son paquetes externos que incluyen todo y hacés en bootstrap &lt;code&gt; $this-&amp;gt;addPlugin(&#39;AcmeCorp/ContactManager&#39;);&lt;/code&gt;&lt;br /&gt;
+Son las apps de django.&lt;/p&gt;
+&lt;h1 id=&quot;auth&quot; tabindex=&quot;-1&quot;&gt;Auth &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/cheatsheet-phpcake.html#auth&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;plugin de authentication, hay que hacer acciones de login&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Cómo usar una raspberry pi como receptor de spotify</title>
+		<link href="https://jisbruzzi.github.io/garden/raspotify-rpi.html"/>
+		<updated>2021-03-24T14:07:12Z</updated>
+		<id>https://jisbruzzi.github.io/garden/raspotify-rpi.html</id>
+		<content type="html">&lt;p&gt;La raspberry pi es una genialidad tecnológica del siglo XXI que no uso para nada tecnológico sino para reproducir canciones de spotify por unos parlantes externos. Y ni siquiera para eso sirve.&lt;/p&gt;
+&lt;h1 id=&quot;paso-1:-reinstalar-raspberry-pi-os-o-como-se-llame&quot; tabindex=&quot;-1&quot;&gt;Paso 1: reinstalar raspberry pi OS o como se llame &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/raspotify-rpi.html#paso-1:-reinstalar-raspberry-pi-os-o-como-se-llame&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.raspberrypi.org/documentation/installation/installing-images/&quot;&gt;Referencia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Simplemente hay que:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ir a la &lt;a href=&quot;https://www.raspberrypi.org/&quot;&gt;página oficial de raspberry pi&lt;/a&gt; y descargar el sistema operativo ahí.&lt;/li&gt;
+&lt;li&gt;conectar la tarjeta sd y ver qué nombre le asignó linux usando &lt;code&gt;df -h&lt;/code&gt; (columna &lt;code&gt;Filesystem&lt;/code&gt;). Supongamos que linux le asignó el archivo &lt;code&gt;/dev/sdXX&lt;/code&gt; a la tarjeta SD.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dd if=&amp;lt;imagen del SO descomprimida&amp;gt; of=/dev/sdXX bs=4M conv=fsync&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;paso-2:-raspotify&quot; tabindex=&quot;-1&quot;&gt;Paso 2: raspotify &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/raspotify-rpi.html#paso-2:-raspotify&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Seguir las &lt;a href=&quot;https://github.com/dtcooper/raspotify&quot;&gt;instrucciones de instalación&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&quot;paso-3:-resolver-problema-con-el-volumen&quot; tabindex=&quot;-1&quot;&gt;Paso 3: resolver problema con el volumen &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/raspotify-rpi.html#paso-3:-resolver-problema-con-el-volumen&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;correr el comando &lt;code&gt;alsamixer&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Cambiar de dispositivo con &lt;code&gt;F6&lt;/code&gt;, elegir headphones&lt;/li&gt;
+&lt;li&gt;Subir el volumen a 100%&lt;/li&gt;
+&lt;li&gt;Salir con la tecla ESC&lt;/li&gt;
+&lt;li&gt;Correr el comando &lt;code&gt;sudo alsactl store&lt;/code&gt; &lt;a href=&quot;https://askubuntu.com/questions/50067/howto-save-alsamixer-settings&quot;&gt;Referencia&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&quot;paso-4:-resolver-otros-problemas&quot; tabindex=&quot;-1&quot;&gt;Paso 4: resolver otros problemas &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/raspotify-rpi.html#paso-4:-resolver-otros-problemas&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Raspotify no va a funcionar! Tuve más problemas pero no recuerdo cómo los arreglé&lt;/p&gt;
+&lt;p&gt;Issues recomendables:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/dtcooper/raspotify/issues/180&quot;&gt;180&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/dtcooper/raspotify/issues/301&quot;&gt;301&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para diagnosticar problemas: &lt;code&gt;journalctl -u raspotify&lt;/code&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Cómo uso docker con mi disco externo</title>
+		<link href="https://jisbruzzi.github.io/garden/docker-disco-externo.html"/>
+		<updated>2021-02-25T02:37:30Z</updated>
+		<id>https://jisbruzzi.github.io/garden/docker-disco-externo.html</id>
+		<content type="html">&lt;p&gt;Como docker me llenaba el disco de mi computadora, decidí pasarlo a un disco sólido externo.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Disco sólido externo de 128Gb formateado ext4&lt;/li&gt;
+&lt;li&gt;Configuración de docker daemon:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;{&lt;br /&gt;    &quot;data-root&quot;:&quot;/media/&amp;lt;username&gt;/&amp;lt;disco&gt;/docker-root&quot;&lt;br /&gt;}&#39;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; /etc/docker/daemon.json&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Hacer que docker no inicie al prender la computadora. Este paso es importante porque docker puede crear la carpeta &lt;code&gt;/media/&amp;lt;username&amp;gt;/&amp;lt;disco&amp;gt;/docker-root&lt;/code&gt; antes de que se monte el disco.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;systemctl disable docker.socket
+systemctl disable docker.service
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;instalar udiskie&lt;/li&gt;
+&lt;li&gt;hacer que udiskie se ejecute al iniciar X:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;( sleep 1 &amp;amp;&amp;amp; udiskie --smart-tray --menu nested ) &amp;amp;&#39;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; .xprofile&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ahora, al empezar a trabajar hay que correr &lt;code&gt;sudo service docker start&lt;/code&gt; antes de ejecutar cualquier comando de docker o docker compose.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Aprender a programar</title>
+		<link href="https://jisbruzzi.github.io/garden/aprender-a-programar.html"/>
+		<updated>2021-02-24T01:32:20Z</updated>
+		<id>https://jisbruzzi.github.io/garden/aprender-a-programar.html</id>
+		<content type="html">&lt;p&gt;Muy seguido me preguntan cómo aprender a programar. Aquí respondo.&lt;/p&gt;
+&lt;p&gt;Hay 2 motivos para aprender a programar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;para hacer dinero&lt;/li&gt;
+&lt;li&gt;para ver si me gusta una carrera universitaria relacionada&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Si tu intención es hacer dinero, lo ideal es aprender a hacer páginas web (también llamado &amp;quot;desarrollo web&amp;quot; o &amp;quot;desarrollo front end&amp;quot;). Esto es muy distinto de programar. El aprendizaje de desarrollo web se puede dividir en tres partes básicas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HTML&lt;/li&gt;
+&lt;li&gt;CSS&lt;/li&gt;
+&lt;li&gt;Javascript&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;De estos 3 componentes, sólo javascript es un lenguaje de programación. Sabiendo muy poco javascript se puede hacer desarrollo web. De hecho, sabiendo relativamente poco de las 3 cosas uno ya puede trabajar para el exterior o en una empresa local.&lt;/p&gt;
+&lt;p&gt;Si tu intención es aprender a programar para ver si te gusta una carrera, lo ideal es aprender python, que se usa en cursos introductorios en muchas universidades. Otra ventaja de python es que se puede usar para muchísimos proyectos &amp;quot;hobbie&amp;quot;: videojuegos, edición de imágenes, análisis de datos, inteligencia artificial, IOT, automatizaciones de lo más diverso, etc. Una vez explorado python podés pasar a aprender un lenguaje con tipos (recomiendo C#), o un lenguaje funcional de la família de lisp (recomiendo scheme).&lt;/p&gt;
+&lt;p&gt;Otra cosa que puede ser muy interesante para empezar es probar programar juegos. Recomiendo &lt;a href=&quot;https://godotengine.org/&quot;&gt;godot&lt;/a&gt; o &lt;a href=&quot;https://love2d.org/&quot;&gt;Löve&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&quot;links-para-aprender-desarrollo-web&quot; tabindex=&quot;-1&quot;&gt;Links para aprender desarrollo web &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/aprender-a-programar.html#links-para-aprender-desarrollo-web&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.freecodecamp.org/&quot;&gt;https://www.freecodecamp.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/es/docs/Learn&quot;&gt;https://developer.mozilla.org/es/docs/Learn&lt;/a&gt; (español) (muy recomendable)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/microsoft/Web-Dev-For-Beginners&quot;&gt;https://github.com/microsoft/Web-Dev-For-Beginners&lt;/a&gt; (traducido al español en las carpetas &amp;quot;translations&amp;quot; dentro de cada capítulo)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/es-es/users/jenlooper-2911/collections/jg2gax8pzd6o81?WT.mc_id=academic-4621-cxa&quot;&gt;Cursos en español de Microsoft learn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;links-para-aprender-a-programar-(en-espanol)&quot; tabindex=&quot;-1&quot;&gt;Links para aprender a programar (en español) &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/aprender-a-programar.html#links-para-aprender-a-programar-(en-espanol)&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Material del curso Essaya ex Wachenchauzer (curso inicial FIUBA): &lt;a href=&quot;https://algoritmos1rw.ddns.net/material&quot;&gt;https://algoritmos1rw.ddns.net/material&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Curso paradigmas de programación UTN: &lt;a href=&quot;http://www.pdep.com.ar/&quot;&gt;http://www.pdep.com.ar/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Aula virtual algoritmos y programación 3 FIUBA (recomiendo pdf &amp;quot;Libro POO Carlos Fontela (beta 0.7 - agosto 2018)&amp;quot; ): &lt;a href=&quot;https://campus.fi.uba.ar/course/view.php?id=210&quot;&gt;https://campus.fi.uba.ar/course/view.php?id=210&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Canal de youtube de algoritmos y programación 3 FIUBA: &lt;a href=&quot;https://www.youtube.com/channel/UCaaFHnybZanyBBxuE0IXa_Q&quot;&gt;https://www.youtube.com/channel/UCaaFHnybZanyBBxuE0IXa_Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;material-super-avanzado-para-que-revises-en-5-anos&quot; tabindex=&quot;-1&quot;&gt;Material súper avanzado para que revises en 5 años &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/aprender-a-programar.html#material-super-avanzado-para-que-revises-en-5-anos&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://learnyouahaskell.com/&quot;&gt;http://learnyouahaskell.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://softwarefoundations.cis.upenn.edu/&quot;&gt;https://softwarefoundations.cis.upenn.edu/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Por qué renuncié</title>
+		<link href="https://jisbruzzi.github.io/garden/por-que-renuncie.html"/>
+		<updated>2021-02-18T02:34:00Z</updated>
+		<id>https://jisbruzzi.github.io/garden/por-que-renuncie.html</id>
+		<content type="html">&lt;h1 id=&quot;porque-no-quiero-delegarle-a-otro-mi-autoestima&quot; tabindex=&quot;-1&quot;&gt;porque no quiero delegarle a otro mi autoestima &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/por-que-renuncie.html#porque-no-quiero-delegarle-a-otro-mi-autoestima&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Cuando uno trabaja en una empresa, aparecen personas que le dicen a otras personas lo que tienen que hacer; o que cobran más o menos que otras; o que dicen cuán bien o cuán mal trabajan las otras. Todo esto es enfermo porque le sirve a la empresa en la medida que redunda en la imagen que el empleado tiene de sí mismo. Es tóxico y no entiendo por qué una persona psicológicamente saludable se sometería a esta dinámica si tiene alternativas.&lt;/p&gt;
+&lt;h1 id=&quot;porque-los-numeros-no-me-dan-bien&quot; tabindex=&quot;-1&quot;&gt;Porque los números no me dan bien &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/por-que-renuncie.html#porque-los-numeros-no-me-dan-bien&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;En el mercado laboral de sistemas se valora demasiado la antigüedad. Como no tengo antigüedad, prefiero no formar parte del mercado laboral. Tener experiencia no es lo mismo que trabajar bien, sin embargo lo que se paga es la experiencia.&lt;/p&gt;
+&lt;h1 id=&quot;porque-no-creo-encontrar-un-trabajo-local-que-aproveche-mi-formacion&quot; tabindex=&quot;-1&quot;&gt;Porque no creo encontrar un trabajo local que aproveche mi formación &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/por-que-renuncie.html#porque-no-creo-encontrar-un-trabajo-local-que-aproveche-mi-formacion&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Desarrollar software es facilísimo. Cualquiera que se anime a escribir cosas en un lenguaje formal lo puede hacer. No hace falta saber algoritmia, ni conocer scrum, ni conocer patrones de diseño, ni conocer buenas prácticas de desarrollo, ni saber git, ni saber casi nada.&lt;/p&gt;
+&lt;p&gt;Yo soy Ingeniero en Informática, eso no implica que sé programar rápido; sé un poquito de un montón de cosas pero no sé programar rápido.&lt;/p&gt;
+&lt;p&gt;Como en el mercado laboral local no se necesita gente que sepa mucho y programe lento, es preferible no ser parte.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Cómo usar gcloud con un cliente</title>
+		<link href="https://jisbruzzi.github.io/garden/clientes-gcloud.html"/>
+		<updated>2021-02-17T01:28:38Z</updated>
+		<id>https://jisbruzzi.github.io/garden/clientes-gcloud.html</id>
+		<content type="html">&lt;p&gt;Actualmente mi estrategia de venta consiste en delegarle los costos de infraestructura al cliente si así lo desean. Para que los pagos puedan venir de la tarjeta de crédito del cliente, es necesario que éste se registre en google cloud. Mi proceso de desarrollo implica una primera etapa en la que construyo un prototipo y una parte de la infraestructura en google cloud, y luego transfiero todo lo que creé al cliente.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://cloud.google.com/billing/docs/how-to/modify-project&quot;&gt;Fuente de toda esta información&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Paso previo: cambiar el idioma&lt;/strong&gt;&lt;br /&gt;
+Para cambiar el idioma, hay que ir al menú superior derecho (3 puntitos) &amp;gt; preferences &amp;gt; lanuage &amp;amp; region&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Cada &lt;em&gt;persona&lt;/em&gt; que se registra en google cloud tiene vinculada una &lt;em&gt;billing account&lt;/em&gt;. Cada &lt;em&gt;proyecto&lt;/em&gt; tiene &lt;strong&gt;1&lt;/strong&gt; &lt;em&gt;billing account&lt;/em&gt;, y una &lt;em&gt;billing account&lt;/em&gt; puede tener &lt;strong&gt;muchos&lt;/strong&gt; &lt;em&gt;proyectos&lt;/em&gt;.&lt;/p&gt;
+&lt;h1 id=&quot;proceso-general-para-pasar-los-gastos-al-cliente&quot; tabindex=&quot;-1&quot;&gt;Proceso general para pasar los gastos al cliente &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/clientes-gcloud.html#proceso-general-para-pasar-los-gastos-al-cliente&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;El desarrollador &lt;strong&gt;crea&lt;/strong&gt; el &lt;em&gt;proyecto&lt;/em&gt;, prototipa sobre éste proyecto, puede realizar una pequeña inversión.&lt;/li&gt;
+&lt;li&gt;El cliente se registra en &lt;a href=&quot;https://cloud.google.com/&quot;&gt;cloud.google.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;El cliente va al menú &lt;strong&gt;&amp;quot;sandwich&amp;quot;&lt;/strong&gt; (3 líneas) superior izquierdo &amp;gt; &lt;strong&gt;Billing&lt;/strong&gt; (tarjeta de crédito) &amp;gt; &lt;strong&gt;Account management&lt;/strong&gt; (engranaje)&lt;/li&gt;
+&lt;li&gt;En la barra derecha se muestra toda la información de acceso de cualquier cosa de google cloud. El cliente debe hacer click en &lt;strong&gt;+ADD MEMBER&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;El cliente pone en &lt;strong&gt;&amp;quot;New members&amp;quot;&lt;/strong&gt; el mail del desarrollador.&lt;/li&gt;
+&lt;li&gt;El cliente Hace click en &lt;strong&gt;Role&lt;/strong&gt; y luego donde dice &amp;quot;Type to filter&amp;quot;, escribe &lt;strong&gt;&amp;quot;Billing Account User&amp;quot;&lt;/strong&gt;, y lo concede al desarrollador haciendo click en &lt;strong&gt;SAVE&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;El desarrollador va a &lt;strong&gt;sandwich&lt;/strong&gt; &amp;gt; &lt;strong&gt;Billing&lt;/strong&gt; &amp;gt; &lt;strong&gt;Account management&lt;/strong&gt;, y clickea en &lt;strong&gt;&amp;quot;Actions&amp;quot;&lt;/strong&gt; &amp;gt; &lt;strong&gt;&amp;quot;Change billing&amp;quot;&lt;/strong&gt; del proyecto a transferir. Allí va a poder elegir la billing account del cliente.&lt;/li&gt;
+&lt;li&gt;(PENDIENTE VERIFICAR SI FUNCIONA) El cliente ahora puede desactivar el rol que me concedió sobre su Billing Account para evitar que el desarrollador (malintencionadamente o por error) agregue más proyectos a su billing account&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&quot;proceso-para-pasar-el-proyecto-al-cliente&quot; tabindex=&quot;-1&quot;&gt;Proceso para pasar el proyecto al cliente &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/clientes-gcloud.html#proceso-para-pasar-el-proyecto-al-cliente&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;El desarrollador que creó el proyecto por defecto tiene rol &lt;strong&gt;Owner&lt;/strong&gt; en el mismo. Para darle visibilidad absoluta al cliente sobre la infraestructura, debe el desarrollador debe asignarle ese mismo rol al cliente.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Loggearse en la &lt;a href=&quot;https://jisbruzzi.github.io/garden/(https://console.cloud.google.com)&quot;&gt;consola de google cloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hamburguesa-&amp;gt;IAM&lt;/li&gt;
+&lt;li&gt;Click en el botón &amp;quot;ADD&amp;quot;&lt;/li&gt;
+&lt;li&gt;Aparece un formulario, en &amp;quot;New members&amp;quot; poner el mail del cliente, en Role poner &amp;quot;Owner&amp;quot;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Nombres en vez de IP en tu LAN</title>
+		<link href="https://jisbruzzi.github.io/garden/nombres-sin-dns.html"/>
+		<updated>2021-02-16T22:24:10Z</updated>
+		<id>https://jisbruzzi.github.io/garden/nombres-sin-dns.html</id>
+		<content type="html">&lt;p&gt;No hace falta instalar y configurar un servidor DNS para acceder servidores locales usando nombres.&lt;br /&gt;
+Se puede usar &lt;a href=&quot;https://www.avahi.org/&quot;&gt;Avahi&lt;/a&gt;. Avahi es un protocolo  estandarizado recientemente, no todos los sistemas lo soportan. Así, hay que instalar daemon y servidores en los equipos que participan de la red. Es más facil configurar Avahi que configurar un DNS local.&lt;/p&gt;
+&lt;p&gt;Los siguientes comandos instalan avahi daemon y server. Funcionan en raspberry pi, ubuntu 18 y 20.&lt;/p&gt;
+&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; openssh-server&lt;br /&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; avahi-daemon&lt;br /&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;cp&lt;/span&gt; /usr/share/doc/avahi-daemon/examples/ssh.service /etc/avahi/services/&lt;br /&gt;view /etc/hostname&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ahora, en un equipo que tenga instalado &lt;code&gt;avahi-daemon&lt;/code&gt;, puede acceder usando el hostname del servidor ssh. Así, si en &lt;code&gt;/etc/hostname&lt;/code&gt; dice &lt;code&gt;fooserver&lt;/code&gt;, accedemos como &lt;code&gt;ssh usuario@fooserver.local&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;El despliegue toma 5 minutos, en casa tengo todas las computadoras linux accesibles desde todas las otras.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Un cuaderno con ideas</title>
+		<link href="https://jisbruzzi.github.io/garden/hello-world.html"/>
+		<updated>2021-02-16T21:14:49Z</updated>
+		<id>https://jisbruzzi.github.io/garden/hello-world.html</id>
+		<content type="html">&lt;p&gt;Desde que renuncié estoy aprendiendo muchas cosas en lo profesional, tantas que estoy necesitando tener algún lugar donde escribirlas para:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Acordarme que las aprendí&lt;/li&gt;
+&lt;li&gt;Poder referir a las personas acá cuando tengo que pasarles cierta información&lt;/li&gt;
+&lt;li&gt;Agrupar links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hace algún tiempo junto cosas escritas en cuadernos y archivos markdown que dan vueltas por diversos repositorios. Lo que no tengo es &lt;em&gt;Autoridad&lt;/em&gt; para decir cosas. Lo que voy a subir acá va a ser más bien una síntesis de mis aprendizajes.&lt;/p&gt;
+&lt;p&gt;Planeo cubrir:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Temas 100% técnicos y prácticos (&amp;quot;guías&amp;quot; o &amp;quot;tutoriales&amp;quot;)
+&lt;ul&gt;
+&lt;li&gt;Desarrollo web&lt;/li&gt;
+&lt;li&gt;Ricing y linux&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Resúmenes de cosas que leo o aprendo&lt;/li&gt;
+&lt;li&gt;Vivencias profesionales&lt;/li&gt;
+&lt;li&gt;Cosas que necesito subir a algún lugar y no sé dónde&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Este sitio va a ser una combinación de blog y wiki. Los posts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Le tienen que servir en mayor medida al lector que a mí&lt;/li&gt;
+&lt;li&gt;Van a ser cortos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Planeo orientar este blog a tags, de esta manera cada tag tendría su propio propósito. Además tengo previsto hacer algunos posts en inglés y/o traducir algunos. Voy a poner un &lt;em&gt;modo limpio&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Tareas pendientes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[ ] Traer 2 ó 3 posts.&lt;/li&gt;
+&lt;li&gt;[ ] Mejorar estilos (css), eliminar tailwind&lt;/li&gt;
+&lt;li&gt;[ ] Renombrar el blog a &lt;code&gt;blog&lt;/code&gt; en vez de &lt;code&gt;next-blog&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;[ ] Sistema híbrido que evita la necesidad de abrir el post si es corto/no tiene excerpt&lt;/li&gt;
+&lt;li&gt;[ ] Página de tag&lt;/li&gt;
+&lt;li&gt;[ ] Modo &amp;quot;limpio&amp;quot; que remueve links de navegación y simplifica la interfaz (para clientes, etc)&lt;/li&gt;
+&lt;li&gt;[ ] Múltiples idiomas&lt;/li&gt;
+&lt;li&gt;[ ] Página personal/cv&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Cómo comunicarse</title>
+		<link href="https://jisbruzzi.github.io/garden/comunicacion.html"/>
+		<updated>2021-02-16T21:14:49Z</updated>
+		<id>https://jisbruzzi.github.io/garden/comunicacion.html</id>
+		<content type="html">&lt;p&gt;Viví situaciones comunicativas muy distintas a lo largo de mi vida:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;En mi adolescencia nos mudamos a Brasil, tuve que aprender portugués muy rápido para poder rendir bien.&lt;/li&gt;
+&lt;li&gt;Durante varios años fui a misionar con &lt;a href=&quot;https://mvg.com.ar/&quot;&gt;jornadas&lt;/a&gt; a Lavalle, Corrientes. En esta situación es necesario transmitir conceptos importantes en un lenguaje muy distinto, y en muy poco tiempo.&lt;/li&gt;
+&lt;li&gt;Trabajé escasísimos 2 años y medio en empresas de software.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Esto es lo que aprendí. Nótese que en este post no cito bibliografía.&lt;/p&gt;
+&lt;h1 id=&quot;1.-las-palabras-se-pagan&quot; tabindex=&quot;-1&quot;&gt;1. Las palabras se pagan &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/comunicacion.html#1.-las-palabras-se-pagan&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Las palabras son caras en muchos sentidos. Las paga el que las escribe y el que las lee; el que las escucha y el que las dice. Hay que elegirlas bien para minimizar su cantidad y maximizar la efectividad del mensaje. Es conveniente repensar un mensaje de chat o mail para asegurarnos de que el texto escrito realmente transmite información.&lt;/p&gt;
+&lt;h1 id=&quot;2.-analfabetismo-funcional&quot; tabindex=&quot;-1&quot;&gt;2. &lt;a href=&quot;https://es.wikipedia.org/wiki/Analfabetismo_funcional&quot;&gt;Analfabetismo funcional&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/comunicacion.html#2.-analfabetismo-funcional&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;No es lo mismo saber leer una señal en la calle que saber leer un artículo de un diario. No es lo mismo escribir tu nombre que escribir un cuento corto, o un texto argumentativo. Poner palabras una al lado de la otra no es lo mismo que escribir un texto. En diversas situaciones, tenemos que comunicarnos con personas que manejan peor el lenguaje. Para que la comunicación sea efectiva, es necesario adaptarse al receptor.&lt;/p&gt;
+&lt;p&gt;Algunas estrategias:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Usar Ejemplos&lt;/li&gt;
+&lt;li&gt;Usar Analogías o metáforas&lt;/li&gt;
+&lt;li&gt;Simplificar el lenguaje&lt;/li&gt;
+&lt;li&gt;Reducir el uso de la palabra escrita. Pueden usarse diagramas, videos, juegos, experimentos, etc.&lt;/li&gt;
+&lt;li&gt;Escribir un mensaje más corto o hablar menos&lt;/li&gt;
+&lt;li&gt;Reducir la cantidad de temas o conceptos explicados en un mismo texto o conversación. Dejar algún tema para más tarde o para otro día.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;3.-empatia&quot; tabindex=&quot;-1&quot;&gt;3. Empatía &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/comunicacion.html#3.-empatia&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Independientemente de la habilidad con que se maneje de la palabra escrita, es casi imposible comunicarse con alguien que no empatiza. El emisor debe intentar meterse en la cabeza del receptor para entender cómo va a ser interpretado el mensaje. Para esto es bueno pensar en quién es el receptor y para qué va a usar esta información el receptor. Las palabras que se emiten, se emiten &lt;em&gt;para&lt;/em&gt; el receptor: tienen que ser como una artesanía o un mueble hecho a medida.&lt;/p&gt;
+&lt;h1 id=&quot;4.-sinonimos&quot; tabindex=&quot;-1&quot;&gt;4. Sinónimos &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/comunicacion.html#4.-sinonimos&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Los sinónimos debilitan el mensaje y hay que evitarlos. Es mejor decidirse por la palabra más precisa en vez de enumerar varias similares. Sobre todo en textos técnicos, donde cada palbra tiene un significado muy preciso, los sinónimos necesariamente confunden. En otros textos, se usan para evitar sonidos repetitivos y estéticamente desagradables. Es importante que el texto sea efectivo, no que sea estético.&lt;/p&gt;
+&lt;h1 id=&quot;5.-diagramas&quot; tabindex=&quot;-1&quot;&gt;5. Diagramas &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/comunicacion.html#5.-diagramas&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Los diagramas transmiten ideas que el texto no puede. Los diagramas son muy superiores a la prosa para explicar absolutamente cualquier cosa. Intentá escribir la menor cantidad de texto posible y usar la mayor cantidad posible de diagramas. Mi herramienta favorita es &lt;code&gt;draw.io&lt;/code&gt; (ahora llamada &lt;a href=&quot;https://diagrams.net/&quot;&gt;diagrams.net&lt;/a&gt;).&lt;/p&gt;
+&lt;h1 id=&quot;6.-logica-y-evidencias&quot; tabindex=&quot;-1&quot;&gt;6. Lógica y evidencias &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/comunicacion.html#6.-logica-y-evidencias&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;La información verdadera emana de fuentes confiables o de un razonamiento válido, basado en información verdadera. Cuando algo que digas o escribas no cumpla estas condiciones, tenés que avisar. De esta manera, todo lo que decís es verdadero. Si, para cumplir esto, abusás de frases como &amp;quot;creo que&amp;quot;, &amp;quot;me parece&amp;quot;, &amp;quot;no estoy seguro&amp;quot;, etc; lo más conveniente es guardar silencio.&lt;/p&gt;
 </content>
 	</entry>
 </feed>
