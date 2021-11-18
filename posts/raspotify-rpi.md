@@ -1,6 +1,8 @@
 ---
 title: Cómo usar una raspberry pi como receptor de spotify
 date: '2021-03-24T14:07:12.835Z'
+tags:
+    - nerd
 ---
 La raspberry pi es una genialidad tecnológica del siglo XXI que no uso para nada tecnológico sino para reproducir canciones de spotify por unos parlantes externos. Y ni siquiera para eso sirve.
 

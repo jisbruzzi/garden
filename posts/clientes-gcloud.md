@@ -2,6 +2,8 @@
 title: Cómo usar gcloud con un cliente
 excerpt: Empecé a usar gcloud y parte de mi proceso implica que un cliente use la consola
 date: '2021-02-17T01:28:38.247Z'
+tags:
+    - business
 ---
 Actualmente mi estrategia de venta consiste en delegarle los costos de infraestructura al cliente si así lo desean. Para que los pagos puedan venir de la tarjeta de crédito del cliente, es necesario que éste se registre en google cloud. Mi proceso de desarrollo implica una primera etapa en la que construyo un prototipo y una parte de la infraestructura en google cloud, y luego transfiero todo lo que creé al cliente. 
 

@@ -2,6 +2,8 @@
 title: Cómo comunicarse
 excerpt: 'Mis opiniones respecto de cómo comunicarse de forma efectiva'
 date: '2021-02-16T21:14:49.258Z'
+tags:
+    - business
 ---
 Viví situaciones comunicativas muy distintas a lo largo de mi vida:
 - En mi adolescencia nos mudamos a Brasil, tuve que aprender portugués muy rápido para poder rendir bien.

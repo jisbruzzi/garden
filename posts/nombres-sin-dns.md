@@ -2,6 +2,8 @@
 title: Nombres en vez de IP en tu LAN
 excerpt: No hace falta instalar y configurar un servidor DNS para acceder servidores locales usando nombres.
 date: '2021-02-16T22:24:10.328Z'
+tags:
+    - nerd
 ---
 No hace falta instalar y configurar un servidor DNS para acceder servidores locales usando nombres.
 Se puede usar [Avahi](https://www.avahi.org/). Avahi es un protocolo  estandarizado recientemente, no todos los sistemas lo soportan. Así, hay que instalar daemon y servidores en los equipos que participan de la red. Es más facil configurar Avahi que configurar un DNS local.

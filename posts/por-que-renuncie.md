@@ -1,6 +1,8 @@
 ---
 title: Por qué renuncié
 date: '2021-02-18T02:34:00.000Z'
+tags:
+    - meta
 ---
 # porque no quiero delegarle a otro mi autoestima
 Cuando uno trabaja en una empresa, aparecen personas que le dicen a otras personas lo que tienen que hacer; o que cobran más o menos que otras; o que dicen cuán bien o cuán mal trabajan las otras. Todo esto es enfermo porque le sirve a la empresa en la medida que redunda en la imagen que el empleado tiene de sí mismo. Es tóxico y no entiendo por qué una persona psicológicamente saludable se sometería a esta dinámica si tiene alternativas.

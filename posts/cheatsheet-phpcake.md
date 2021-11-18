@@ -1,6 +1,9 @@
 ---
 title: Cheatsheet PHPCake
 date: '2021-05-17T19:32:20.803Z'
+tags:
+    - technical
+    - cheatsheet
 ---
 # Dependency injection
 Se incluyen los servicios inyectables como argumentos de los métodos de los controllers. Pueden ser abstractos o concretos. A partir del tipo CakePHP deduce cuál es el inyectable.

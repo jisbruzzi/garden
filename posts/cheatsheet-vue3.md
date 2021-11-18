@@ -1,6 +1,9 @@
 ---
 title: Cheatsheet vue 3
 date: '2021-05-17T19:32:20.803Z'
+tags:
+    - technical
+    - cheatsheet
 ---
 # Options
 Exportadas por `<script/>` block.

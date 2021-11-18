@@ -1,6 +1,9 @@
 ---
 title: Cheatsheet Redux
 date: '2021-05-17T19:32:20.803Z'
+tags:
+    - technical
+    - cheatsheet
 ---
 # React - redux
 

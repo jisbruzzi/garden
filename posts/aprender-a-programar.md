@@ -2,6 +2,8 @@
 title: Aprender a programar
 excerpt: 'Links y consejos'
 date: '2021-02-24T01:32:20.803Z'
+tags:
+    - nerd
 ---
 Muy seguido me preguntan cómo aprender a programar. Aquí respondo.
 

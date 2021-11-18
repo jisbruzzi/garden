@@ -2,6 +2,8 @@
 title: Cómo uso docker con mi disco externo
 excerpt: mi setup para usar docker en un disco externo
 date: '2021-02-25T02:37:30.187Z'
+tags:
+    - nerd
 ---
 Como docker me llenaba el disco de mi computadora, decidí pasarlo a un disco sólido externo.
 - Disco sólido externo de 128Gb formateado ext4

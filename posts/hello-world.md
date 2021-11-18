@@ -2,6 +2,8 @@
 title: Un cuaderno con ideas
 excerpt: 'Qué tiene este blog'
 date: '2021-02-16T21:14:49.258Z'
+tags:
+    - meta
 ---
 Desde que renuncié estoy aprendiendo muchas cosas en lo profesional, tantas que estoy necesitando tener algún lugar donde escribirlas para:
 - Acordarme que las aprendí
