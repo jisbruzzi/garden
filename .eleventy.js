@@ -133,7 +133,7 @@ module.exports = function(eleventyConfig) {
 
     // These are all optional (defaults are shown):
     dir: {
-      input: ".",
+      input: "www",
       includes: "_includes",
       data: "_data",
       output: "_site"
