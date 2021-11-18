@@ -5,7 +5,7 @@
 	
 	<link href="https://jisbruzzi.github.io/garden/feed/feed.xml" rel="self"/>
 	<link href="https://jisbruzzi.github.io/garden"/>
-	<updated>2021-11-18T11:45:46Z</updated>
+	<updated>2021-11-18T14:21:55Z</updated>
 	<id>https://jisbruzzi.github.io/garden</id>
 	<author>
 		<name>José Ignacio Sbruzzi</name>
@@ -15,13 +15,15 @@
 	<entry>
 		<title>Tareas pendientes de este digital garden</title>
 		<link href="https://jisbruzzi.github.io/garden/pendientes.html"/>
-		<updated>2021-11-18T11:45:46Z</updated>
+		<updated>2021-11-18T14:21:55Z</updated>
 		<id>https://jisbruzzi.github.io/garden/pendientes.html</id>
 		<content type="html">&lt;h1 id=&quot;tareas&quot; tabindex=&quot;-1&quot;&gt;Tareas &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/pendientes.html#tareas&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;En todos lados donde dice &amp;quot;posts&amp;quot;, que diga &amp;quot;notes&amp;quot;&lt;/li&gt;
 &lt;li&gt;Soporte para contenido en inglés&lt;/li&gt;
 &lt;li&gt;UI multilingüe&lt;/li&gt;
+&lt;li&gt;Migración a obsidian&lt;/li&gt;
+&lt;li&gt;Integrar curriculums vitaes (en inglés y en español)&lt;/li&gt;
 &lt;li&gt;Links de obsidian y compatibilidad con obsidian&lt;/li&gt;
 &lt;li&gt;Integración con landing personal&lt;/li&gt;
 &lt;li&gt;Temas de colores para cada tag&lt;/li&gt;
@@ -43,7 +45,43 @@
 &lt;li&gt;Post titulado: &amp;quot;lo importante en la vida&amp;quot;&lt;/li&gt;
 &lt;li&gt;Post sobre generadores de sitios estáticos que compara gatsby, nextjs, hugo 11ty&lt;/li&gt;
 &lt;li&gt;Postmorten sobre la aplicación de técnicas de gestión de avanzada para la organización de un casamiento en 3 meses&lt;/li&gt;
+&lt;li&gt;Traer posts que están en &lt;a href=&quot;http://pepenachohacejuegos.wordpress.com/&quot;&gt;pepenachohacejuegos.wordpress.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Traer la galería de videojuegos de &lt;a href=&quot;http://pepenachohacejuegos.wordpress.com/&quot;&gt;pepenachohacejuegos.wordpress.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Traer material de catequesis&lt;/li&gt;
 &lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Lo importante: Hacer lo que vine a hacer</title>
+		<link href="https://jisbruzzi.github.io/garden/lo_importante.html"/>
+		<updated>2021-11-18T14:21:55Z</updated>
+		<id>https://jisbruzzi.github.io/garden/lo_importante.html</id>
+		<content type="html">&lt;p&gt;Esta nota se basa en: &lt;a href=&quot;https://youtu.be/52LKIWQ-ALY&quot;&gt;https://youtu.be/52LKIWQ-ALY&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Cosas que no dan felicidad en la vida:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;El dinero: ninguna cantidad de dinero basta, siempre se puede tener más. Qué cambia tenér una lamborghini más si ya tenés 1000?&lt;/li&gt;
+&lt;li&gt;Los amigos y el amor de la gente: ninguna cantidad basta, siempre se puede tener más.&lt;/li&gt;
+&lt;li&gt;El honor: Siempre puede haber una persona más que puede aplaudirte&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Así, nada de lo que puedas tener &amp;quot;más de&amp;quot; te va a hacer feliz de forma absoluta.&lt;/p&gt;
+&lt;p&gt;Las cuatro causas según Aristóteles y Santo Tomás:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;causa material de X: de qué está hecho X&lt;/li&gt;
+&lt;li&gt;causa formal de X: qué es X&lt;/li&gt;
+&lt;li&gt;causa eficiente de X: cómo se originó X&lt;/li&gt;
+&lt;li&gt;causa final de X: para qué existe X (finalidad)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Cada uno de nosotros tiene cada una de las 4. Como seres creados que somos, de la misma forma que los objetos y herramientas que nosotros hacemos tienen las 4 causas, lo mismo vale para nosotros. Cambiando la X por &amp;quot;mesa&amp;quot;, &amp;quot;reloj&amp;quot;, o &amp;quot;calculadora&amp;quot;, esas son preguntas más faciles de responder y entender ( X = &amp;quot;computadora&amp;quot; lo dejamos para otro día). Cambiando X por tu nombre propio, se pone más complicado, pero no debe serlo.&lt;/p&gt;
+&lt;p&gt;En &lt;a href=&quot;https://www.vatican.va/archive/ESL0506/__PUZ.HTM&quot;&gt;Mateo 25&lt;/a&gt;, vemos a Jesús hablando del &amp;quot;para qué&amp;quot;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Para qué sa casan las esposas (parábola de las jóvenes)&lt;/li&gt;
+&lt;li&gt;Para qué el hombre rico le deja los talentos a los servidores (parábola de los talentos)&lt;/li&gt;
+&lt;li&gt;Finalmente la respuesta general, para qué venimos al mundo (la caridad, amar a los demás)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La conclusión de los &amp;quot;tres bloques&amp;quot; de Mateo 25 es que actuar en contrario a su finalidad es lo que condena un alma. Ninguna persona puede hacerlo a sabiendas y tener algo de felicidad. Por lo tanto, la única forma de ser feliz es &lt;strong&gt;hacer aquello para lo que fui creado&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Suelo enunciar este principio como &lt;strong&gt;&amp;quot;Hacer lo que vine al mundo a hacer&amp;quot;&lt;/strong&gt;. Enunciarlo de esta forma suena menos religioso y es más facil de decirlo sin dar excesivas explicaciones ni hacer papelones, que en mi opinión es la forma correcta de dar testimonio. Este es mi principio general para todas las decisiones que tomo, entonces suelo enunciarlo bastante seguido. KISS, YAGNI, etc, son criterios que uno podría deducir de la idea de &amp;quot;finalidad&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Mi intención es pasar mi vida entera haciendo aquello para lo que fui creado, y haciendolo.&lt;/p&gt;
 </content>
 	</entry>
 	
