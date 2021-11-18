@@ -8,6 +8,8 @@ tags:
 - En todos lados donde dice "posts", que diga "notes"
 - Soporte para contenido en inglés
 - UI multilingüe
+- Migración a obsidian
+- Integrar curriculums vitaes (en inglés y en español)
 - Links de obsidian y compatibilidad con obsidian
 - Integración con landing personal
 - Temas de colores para cada tag
@@ -25,3 +27,6 @@ tags:
 - Post titulado: "lo importante en la vida"
 - Post sobre generadores de sitios estáticos que compara gatsby, nextjs, hugo 11ty
 - Postmorten sobre la aplicación de técnicas de gestión de avanzada para la organización de un casamiento en 3 meses
+- Traer posts que están en pepenachohacejuegos.wordpress.com
+- Traer la galería de videojuegos de pepenachohacejuegos.wordpress.com
+- Traer material de catequesis
