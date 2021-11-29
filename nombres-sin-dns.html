@@ -5,32 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nombres en vez de IP en tu LAN</title>
     <meta name="description" content="Blog de José Ignacio Sbruzzi.">
-    <link rel="stylesheet" href="/garden/css/index.css">
+    <link rel="stylesheet" href="/garden/style.css">
     <link rel="stylesheet" href="/garden/css/prism-base16-monokai.dark.css">
     <link rel="alternate" href="/garden/feed/feed.xml" type="application/atom+xml" title="Cuaderno con ideas de José Ignacio Sbruzzi">
     <link rel="alternate" href="/garden/feed/feed.json" type="application/json" title="Cuaderno con ideas de José Ignacio Sbruzzi">
   </head>
   <body>
+  <div class="container mx-auto p-4">
     <header>
-      <h1 class="home"><a href="/garden/">Cuaderno con ideas de José Ignacio Sbruzzi</a></h1>
+      <h1 class="text-2xl text-center m-8 text-blue-400 font-semibold"><a href="/garden/">Cuaderno con ideas de José Ignacio Sbruzzi</a></h1>
     </header>
 
     <main class="tmpl-post">
-      <h1>Nombres en vez de IP en tu LAN</h1>
-
-<time datetime="2021-02-16">16 Feb 2021</time><a href="/garden/tags/nerd/" class="post-tag">nerd</a>
-
-<p>No hace falta instalar y configurar un servidor DNS para acceder servidores locales usando nombres.<br>
+      <div class="max-w-xl mx-auto">
+      <div class="prose">
+  <h1>Nombres en vez de IP en tu LAN</h1>
+  
+  <time datetime="2021-02-16">16 Feb 2021</time><a href="/garden/tags/nerd/" class="post-tag">nerd</a>
+  
+  <p>No hace falta instalar y configurar un servidor DNS para acceder servidores locales usando nombres.<br>
 Se puede usar <a href="https://www.avahi.org/">Avahi</a>. Avahi es un protocolo  estandarizado recientemente, no todos los sistemas lo soportan. Así, hay que instalar daemon y servidores en los equipos que participan de la red. Es más facil configurar Avahi que configurar un DNS local.</p>
 <p>Los siguientes comandos instalan avahi daemon y server. Funcionan en raspberry pi, ubuntu 18 y 20.</p>
 <pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> openssh-server<br><span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> avahi-daemon<br><span class="token function">sudo</span> <span class="token function">cp</span> /usr/share/doc/avahi-daemon/examples/ssh.service /etc/avahi/services/<br>view /etc/hostname</code></pre>
 <p>Ahora, en un equipo que tenga instalado <code>avahi-daemon</code>, puede acceder usando el hostname del servidor ssh. Así, si en <code>/etc/hostname</code> dice <code>fooserver</code>, accedemos como <code>ssh usuario@fooserver.local</code>.</p>
 <p>El despliegue toma 5 minutos, en casa tengo todas las computadoras linux accesibles desde todas las otras.</p>
 
-<hr>
-<ul><li>Next: <a href="/garden/clientes-gcloud.html">Cómo usar gcloud con un cliente</a></li><li>Previous: <a href="/garden/hello-world.html">Un cuaderno con ideas</a></li>
-</ul>
-
+  <hr>
+  <ul><li>Next: <a href="/garden/clientes-gcloud.html">Cómo usar gcloud con un cliente</a></li><li>Previous: <a href="/garden/hello-world.html">Un cuaderno con ideas</a></li>
+  </ul>
+</div>
+      </div>
     </main>
 
     <footer></footer>
