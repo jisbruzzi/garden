@@ -10,22 +10,16 @@
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
   </head>
-  <body class="prose">
+  <body>
+  <div class="container mx-auto p-4">
     <header>
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
-
-      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      {#- 
-      <ul class="nav">
-      {%- for entry in collections.all | eleventyNavigation %}
-        <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
-      {%- endfor %}
-      </ul>
-      #}
+      <h1 class="text-2xl text-center m-8 text-blue-400 font-semibold"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
     </header>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+      <div class="max-w-xl mx-auto">
       {{ content | safe }}
+      </div>
     </main>
 
     <footer></footer>

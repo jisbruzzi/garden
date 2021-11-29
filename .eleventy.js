@@ -9,6 +9,7 @@ const markdownItAnchor = require("markdown-it-anchor");
 module.exports = function(eleventyConfig) {
   eleventyConfig.addWatchTarget('./styles/tailwind.config.js')
   eleventyConfig.addWatchTarget('./styles/tailwind.css')
+  eleventyConfig.addWatchTarget('./_site/style.css')
   // Add plugins
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
