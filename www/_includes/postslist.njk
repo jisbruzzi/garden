@@ -1,18 +1,29 @@
 <ol>
 {% for post in postslist | reverse %}
-  <li class="px-4 py-1 my-1 border-2 border-blue-300 rounded-md flex flex-col">
-    <a href="{{ post.url | url }}" >
-      {% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}
-    </a>
-    <time datetime="{{ post.date | htmlDateString }}">
-      {{ post.date | readableDate }}
-    </time>
-    <ul>
-    {% for tag in post.data.tags | filterTagList %}
-      {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-      <li class="inline"><a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a></li>
-    {% endfor %}
-    </ul>
+  <li class="px-4 py-2 my-3 border-2 border-blue-300 rounded-md">
+    <div class="flex flex-row justify-between items-baseline">
+      <div>
+        <a href="{{ post.url | url }}" class="text-xl font-semibold hover:underline" >
+          {% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}
+        </a>
+        {% if post.data.excerpt %}
+        <div class="text-sm pt-1">
+          {{ post.data.excerpt }}
+        </div>
+        {% endif %}
+      </div>
+      <div>
+        <ul class="text-sm text-blue-300 font-bold inline">
+        {% for tag in post.data.tags | filterTagList %}
+          {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+          <li class="inline"><a href="{{ tagUrl | url }}" class="hover:underline">#{{ tag }}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+    
+    
+    
   </li>
 {% endfor %}
 </ol>
