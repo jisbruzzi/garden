@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "5bbfdfcca8a58260",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9eadc914c50ff62",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "ostep.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "894c63435444d5f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "92334825cf3ea6ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb80c55897cd9202",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9e8818db308fb18c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "887a5d9ef7c11163",
+    "type": "split",
+    "children": [
+      {
+        "id": "e24f6247e319c3ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b416cbaa3671320",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ostep.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "b9eadc914c50ff62",
+  "lastOpenFiles": [
+    "ostep.md",
+    "cheatsheet-phpcake.md",
+    "aprender-a-programar.md",
+    "cheatsheet-vue3.md",
+    "clientes-gcloud.md",
+    "raspotify-rpi.md",
+    "fisop/process API.md"
+  ]
+}
