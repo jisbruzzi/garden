@@ -47,4 +47,15 @@ tags: [fiuba, technical, cheatsheet]
 - Lotería con 100 tickets repartidos de forma proporcional, sacás nro cada time slice
   - ticket currency: cada user tiene un cierto nro de tickets y se pueden convertir al nro de tickets global del sistema
   - ticket tranfer: un proceso da tickets a otro
-  -  ticket inflation: un proceso se da más/menos tickets a sí mismo. Sólo se puede usar si los procesos pueden confiarse entre sí
+  - ticket inflation: un proceso se da más/menos tickets a sí mismo. Sólo se puede usar si los procesos pueden confiarse entre sí
+- más time slices -> más fairness
+- stride scheduling: 
+  - stride = N / tickets del proceso
+  - cada slice:
+    - proceso = el de menor pass
+    - correr proceso
+    - pass[proceso]+=stride[proceso]
+  - stateful (problema introducir procesos)
+  - proporción de ejecución exacta (fairness)
+- Linux Completely Fair Scheduler:
+  -
