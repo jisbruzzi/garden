@@ -41,4 +41,10 @@ tags: [fiuba, technical, cheatsheet]
 	- **Rule 4:** Once a job uses up its time allotment at a given level (regardless of how many times it has given up the CPU), its priority is reduced (i.e., it moves down one queue).
 	- **Rule 5:** After some time period S, move all the jobs in the system to the topmost queue.
 - Starved job: permanece con poca prioridad
+
 # 9. Scheduling: Proportional Share
+- objetivo: asignar % cpu a cada proceso
+- Lotería con 100 tickets repartidos de forma proporcional, sacás nro cada time slice
+  - ticket currency: cada user tiene un cierto nro de tickets y se pueden convertir al nro de tickets global del sistema
+  - ticket tranfer: un proceso da tickets a otro
+  -  ticket inflation: un proceso se da más/menos tickets a sí mismo. Sólo se puede usar si los procesos pueden confiarse entre sí
