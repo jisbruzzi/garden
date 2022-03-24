@@ -66,3 +66,23 @@ tags: [fiuba, technical, cheatsheet]
   - waking up: set vruntime to lowest
 
 # 10. Multiprocessor Scheduling (Advanced)
+PENDIENTE
+
+# 13. The Abstraction: Address Spaces
+(nada)
+
+# 14. Interlude: Memory API
+- malloc: lib C
+- free: lib C
+- syscalls: brk, sbrk. Disminuyen el valor de break del heap, permiten utilizar mayor parte de la memoria
+- mmap (syscall): hace otra cosa que no es malloc ni free
+
+# 15. Mechanism: Address Translation
+
+- base and bound virtualization:
+  - base: offset para operaciones de memoria
+  - bound: límite para operaciones de memoria
+  - hardware enforced with exception mechanisms
+  - only set in privileged mode
+- free list: estructura que dice qué bloques están libres
+- es posible mover la memoria usada por cierto proceso al switchearlo aprovechando este mecanismo.
