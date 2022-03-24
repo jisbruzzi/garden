@@ -99,10 +99,18 @@
 <li>proporción de ejecución exacta (fairness)</li>
 </ul>
 </li>
-<li>
-<h2 id="linux-completely-fair-scheduler:" tabindex="-1">Linux Completely Fair Scheduler: <a class="direct-link" href="#linux-completely-fair-scheduler:" aria-hidden="true">#</a></h2>
+<li>Linux Completely Fair Scheduler:
+<ul>
+<li><code>vruntime[p]</code>: tiempo virtual que corrió p</li>
+<li><code>sched_latency</code>: (casi) completely fair en este intervalo</li>
+<li><code>min_granularity</code>: slice = max(min_granularity,sched_latency/num_procesos)</li>
+<li>algoritmo: elegir proceso de menor vruntime al terminar el slice</li>
+<li>niceness: cada valor de nice se corresponde con un peso. El peso se utiliza para pesar vruntimes al elegir next job</li>
+<li>waking up: set vruntime to lowest</li>
+</ul>
 </li>
 </ul>
+<h1 id="10.-multiprocessor-scheduling-(advanced)" tabindex="-1">10. Multiprocessor Scheduling (Advanced) <a class="direct-link" href="#10.-multiprocessor-scheduling-(advanced)" aria-hidden="true">#</a></h1>
 
   <hr>
   <ul><li>Next: <a href="/garden/lo_importante.html">Lo importante: Hacer lo que vine a hacer</a></li><li>Previous: <a href="/garden/cheatsheet-vue3.html">Cheatsheet vue 3</a></li>
