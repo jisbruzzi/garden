@@ -58,4 +58,11 @@ tags: [fiuba, technical, cheatsheet]
   - stateful (problema introducir procesos)
   - proporción de ejecución exacta (fairness)
 - Linux Completely Fair Scheduler:
-  -
+  - `vruntime[p]`: tiempo virtual que corrió p
+  - `sched_latency`: (casi) completely fair en este intervalo
+  - `min_granularity`: slice = max(min_granularity,sched_latency/num_procesos)
+  - algoritmo: elegir proceso de menor vruntime al terminar el slice
+  - niceness: cada valor de nice se corresponde con un peso. El peso se utiliza para pesar vruntimes al elegir next job
+  - waking up: set vruntime to lowest
+
+# 10. Multiprocessor Scheduling (Advanced)
