@@ -1,10 +1,7 @@
 ---
 title: Resumen de ostep.org
-date: '2022-03-20T22:15:35.803Z'
-tags:
-    - fiuba
-    - technical
-    - cheatsheet
+date: 2022-03-20T22:15:35+00:00
+tags: [fiuba, technical, cheatsheet]
 ---
 
 # 5. Intrlude Process API
