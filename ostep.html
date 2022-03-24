@@ -84,6 +84,24 @@
 <li>ticket inflation: un proceso se da más/menos tickets a sí mismo. Sólo se puede usar si los procesos pueden confiarse entre sí</li>
 </ul>
 </li>
+<li>más time slices -&gt; más fairness</li>
+<li>stride scheduling:
+<ul>
+<li>stride = N / tickets del proceso</li>
+<li>cada slice:
+<ul>
+<li>proceso = el de menor pass</li>
+<li>correr proceso</li>
+<li>pass[proceso]+=stride[proceso]</li>
+</ul>
+</li>
+<li>stateful (problema introducir procesos)</li>
+<li>proporción de ejecución exacta (fairness)</li>
+</ul>
+</li>
+<li>
+<h2 id="linux-completely-fair-scheduler:" tabindex="-1">Linux Completely Fair Scheduler: <a class="direct-link" href="#linux-completely-fair-scheduler:" aria-hidden="true">#</a></h2>
+</li>
 </ul>
 
   <hr>
