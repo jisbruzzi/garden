@@ -42,7 +42,7 @@ for item in items:
     if not post_type=='post' and not post_type=='page':
         continue
     try:
-        with open(directory+"/wp-es-"+status+"-"+post_id+".md","w") as output:
+        with open(directory+"/wp-en-"+status+"-"+post_id+".md","w") as output:
             output.write("---\n")
             if title: output.write("title: '"+title+"'\n")
             if post_type: output.write("post_type: '"+post_type+"'\n")
@@ -58,7 +58,7 @@ for item in items:
                 print(post_id+" has no date")
             if post_id: output.write("post_id: '"+post_id+"'\n")
             output.write("""tags:
-    - pepenachohacejuegos
+    - soyyomakesgames
     - teenage
     - nerd
 """)
