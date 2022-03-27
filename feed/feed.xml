@@ -5,7 +5,7 @@
 	
 	<link href="https://jisbruzzi.github.io/garden/feed/feed.xml" rel="self"/>
 	<link href="https://jisbruzzi.github.io/garden"/>
-	<updated>2022-03-27T21:26:11Z</updated>
+	<updated>2022-03-27T23:11:35Z</updated>
 	<id>https://jisbruzzi.github.io/garden</id>
 	<author>
 		<name>José Ignacio Sbruzzi</name>
@@ -15,7 +15,7 @@
 	<entry>
 		<title>Tareas pendientes de este digital garden</title>
 		<link href="https://jisbruzzi.github.io/garden/pendientes.html"/>
-		<updated>2022-03-27T21:26:11Z</updated>
+		<updated>2022-03-27T23:11:35Z</updated>
 		<id>https://jisbruzzi.github.io/garden/pendientes.html</id>
 		<content type="html">&lt;h1 id=&quot;tareas&quot; tabindex=&quot;-1&quot;&gt;Tareas &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/pendientes.html#tareas&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
@@ -57,7 +57,7 @@
 	<entry>
 		<title>Lo importante: Hacer lo que vine a hacer</title>
 		<link href="https://jisbruzzi.github.io/garden/lo_importante.html"/>
-		<updated>2022-03-27T21:26:11Z</updated>
+		<updated>2022-03-27T23:11:35Z</updated>
 		<id>https://jisbruzzi.github.io/garden/lo_importante.html</id>
 		<content type="html">&lt;p&gt;Esta nota se basa en: &lt;a href=&quot;https://youtu.be/52LKIWQ-ALY&quot;&gt;https://youtu.be/52LKIWQ-ALY&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Cosas que no dan felicidad en la vida:&lt;/p&gt;
@@ -90,7 +90,7 @@
 	<entry>
 		<title>How I imported wordpress.com content into my 11ty blog</title>
 		<link href="https://jisbruzzi.github.io/garden/import.html"/>
-		<updated>2022-03-27T21:26:11Z</updated>
+		<updated>2022-03-27T23:11:35Z</updated>
 		<id>https://jisbruzzi.github.io/garden/import.html</id>
 		<content type="html">&lt;ul&gt;
 &lt;li&gt;Step 1: use &lt;a href=&quot;http://wordpress.com/&quot;&gt;wordpress.com&lt;/a&gt; &lt;a href=&quot;https://wordpress.com/export&quot;&gt;export tool&lt;/a&gt; to download an xml that contains all data from the blog. It is emailed to you in an email!&lt;/li&gt;
