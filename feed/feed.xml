@@ -5,7 +5,7 @@
 	
 	<link href="https://jisbruzzi.github.io/garden/feed/feed.xml" rel="self"/>
 	<link href="https://jisbruzzi.github.io/garden"/>
-	<updated>2022-03-27T21:03:02Z</updated>
+	<updated>2022-03-27T21:15:29Z</updated>
 	<id>https://jisbruzzi.github.io/garden</id>
 	<author>
 		<name>José Ignacio Sbruzzi</name>
@@ -15,7 +15,7 @@
 	<entry>
 		<title>Tareas pendientes de este digital garden</title>
 		<link href="https://jisbruzzi.github.io/garden/pendientes.html"/>
-		<updated>2022-03-27T21:03:02Z</updated>
+		<updated>2022-03-27T21:15:29Z</updated>
 		<id>https://jisbruzzi.github.io/garden/pendientes.html</id>
 		<content type="html">&lt;h1 id=&quot;tareas&quot; tabindex=&quot;-1&quot;&gt;Tareas &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/pendientes.html#tareas&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
@@ -55,7 +55,7 @@
 	<entry>
 		<title>Lo importante: Hacer lo que vine a hacer</title>
 		<link href="https://jisbruzzi.github.io/garden/lo_importante.html"/>
-		<updated>2022-03-27T21:03:02Z</updated>
+		<updated>2022-03-27T21:15:29Z</updated>
 		<id>https://jisbruzzi.github.io/garden/lo_importante.html</id>
 		<content type="html">&lt;p&gt;Esta nota se basa en: &lt;a href=&quot;https://youtu.be/52LKIWQ-ALY&quot;&gt;https://youtu.be/52LKIWQ-ALY&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Cosas que no dan felicidad en la vida:&lt;/p&gt;
@@ -82,6 +82,89 @@
 &lt;p&gt;La conclusión de los &amp;quot;tres bloques&amp;quot; de Mateo 25 es que actuar en contrario a su finalidad es lo que condena un alma. Ninguna persona puede hacerlo a sabiendas y tener algo de felicidad. Por lo tanto, la única forma de ser feliz es &lt;strong&gt;hacer aquello para lo que fui creado&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Suelo enunciar este principio como &lt;strong&gt;&amp;quot;Hacer lo que vine al mundo a hacer&amp;quot;&lt;/strong&gt;. Enunciarlo de esta forma suena menos religioso y es más facil de decirlo sin dar excesivas explicaciones ni hacer papelones, que en mi opinión es la forma correcta de dar testimonio. Este es mi principio general para todas las decisiones que tomo, entonces suelo enunciarlo bastante seguido. KISS, YAGNI, etc, son criterios que uno podría deducir de la idea de &amp;quot;finalidad&amp;quot;.&lt;/p&gt;
 &lt;p&gt;Mi intención es pasar mi vida entera haciendo aquello para lo que fui creado, y haciendolo.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>How I imported wordpress.com content into my 11ty blog</title>
+		<link href="https://jisbruzzi.github.io/garden/import.html"/>
+		<updated>2022-03-27T21:15:29Z</updated>
+		<id>https://jisbruzzi.github.io/garden/import.html</id>
+		<content type="html">&lt;ul&gt;
+&lt;li&gt;Step 1: use &lt;a href=&quot;http://wordpress.com/&quot;&gt;wordpress.com&lt;/a&gt; &lt;a href=&quot;https://wordpress.com/export&quot;&gt;export tool&lt;/a&gt; to download an xml that contains all data from the blog. It is emailed to you in an email!&lt;/li&gt;
+&lt;li&gt;Step 2: use the following python script to extract posts and pages from your wordpress blog.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;import xml.etree.ElementTree as ET
+import sys
+import os
+from datetime import datetime
+
+def convert_datetime(sbest,s2):
+    try:
+        d = datetime.strptime(sbest,&amp;quot;%Y-%m-%d %H:%M:%S&amp;quot;)
+        return d.isoformat()
+    except:
+        try:
+            d = datetime.strptime(s2,&amp;quot;%Y-%m-%d %H:%M:%S&amp;quot;)
+            return d.isoformat()
+        except:
+            print(&amp;quot;NOPE&amp;quot;)
+            print(sbest)
+            print(s2)
+
+filename = sys.argv[1]
+tree = ET.parse(filename)
+root = tree.getroot()
+items = [child for child in root[0] if child.tag==&#39;item&#39;]
+ns = {
+    &amp;quot;wp&amp;quot;:&amp;quot;http://wordpress.org/export/1.2/&amp;quot;,
+    &amp;quot;content&amp;quot;:&amp;quot;http://purl.org/rss/1.0/modules/content/&amp;quot;
+}
+directory = filename+&amp;quot;-posts&amp;quot;
+os.mkdir(directory)
+for item in items:
+    title=item.find(&amp;quot;title&amp;quot;).text
+    link=item.find(&amp;quot;link&amp;quot;).text
+    pub_date=item.find(&amp;quot;pubDate&amp;quot;).text
+    content=getattr(item.find(&amp;quot;content:encoded&amp;quot;,ns),&#39;text&#39;,&#39;nothing&#39;) or &amp;quot;empty&amp;quot;
+    post_date=item.find(&amp;quot;wp:post_date_gmt&amp;quot;,ns).text
+    post_modified_gmt=item.find(&amp;quot;wp:post_modified_gmt&amp;quot;,ns).text
+    post_name=item.find(&amp;quot;wp:post_name&amp;quot;,ns).text
+    post_id=item.find(&amp;quot;wp:post_id&amp;quot;,ns).text
+    post_type=item.find(&amp;quot;wp:post_type&amp;quot;,ns).text
+    status=item.find(&amp;quot;wp:status&amp;quot;,ns).text
+    if not content:
+        continue
+    if not post_type==&#39;post&#39; and not post_type==&#39;page&#39;:
+        continue
+    try:
+        with open(directory+&amp;quot;/wp-en-&amp;quot;+status+&amp;quot;-&amp;quot;+post_id+&amp;quot;.md&amp;quot;,&amp;quot;w&amp;quot;) as output:
+            output.write(&amp;quot;---\n&amp;quot;)
+            if title: output.write(&amp;quot;title: &#39;&amp;quot;+title+&amp;quot;&#39;\n&amp;quot;)
+            if post_type: output.write(&amp;quot;post_type: &#39;&amp;quot;+post_type+&amp;quot;&#39;\n&amp;quot;)
+            if link: output.write(&amp;quot;source: &#39;&amp;quot;+link+&amp;quot;&#39;\n&amp;quot;)
+            if pub_date: output.write(&amp;quot;pub_date: &#39;&amp;quot;+pub_date+&amp;quot;&#39;\n&amp;quot;)
+            if post_date: output.write(&amp;quot;post_date: &#39;&amp;quot;+post_date+&amp;quot;&#39;\n&amp;quot;)
+            if post_modified_gmt: output.write(&amp;quot;post_modified_gmt: &#39;&amp;quot;+post_modified_gmt+&amp;quot;&#39;\n&amp;quot;)
+            if post_name: output.write(&amp;quot;post_name: &#39;&amp;quot;+post_name+&amp;quot;&#39;\n&amp;quot;)
+            d = convert_datetime(post_modified_gmt, post_date)
+            if d: 
+                output.write(&amp;quot;date: &#39;&amp;quot;+d+&amp;quot;&#39;\n&amp;quot;)
+            else:
+                print(post_id+&amp;quot; has no date&amp;quot;)
+            if post_id: output.write(&amp;quot;post_id: &#39;&amp;quot;+post_id+&amp;quot;&#39;\n&amp;quot;)
+            output.write(&amp;quot;&amp;quot;&amp;quot;tags:
+    - soyyomakesgames
+    - teenage
+    - nerd
+&amp;quot;&amp;quot;&amp;quot;)
+            output.write(&amp;quot;---\n&amp;quot;)
+            if content: output.write(content)
+    except Exception as e:
+        print(&amp;quot;failed to export &amp;quot;+post_id)
+        print(e)
+    
+&lt;/code&gt;&lt;/pre&gt;
 </content>
 	</entry>
 	

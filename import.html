@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How I imported wordpress.com content into my 11ty blog</title>
+    <meta name="description" content="Blog de José Ignacio Sbruzzi.">
+    <link rel="stylesheet" href="/garden/style.css">
+    <link rel="stylesheet" href="/garden/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/garden/feed/feed.xml" type="application/atom+xml" title="Cuaderno con ideas de José Ignacio Sbruzzi">
+    <link rel="alternate" href="/garden/feed/feed.json" type="application/json" title="Cuaderno con ideas de José Ignacio Sbruzzi">
+  </head>
+  <body>
+  <div class="container mx-auto p-4 max-w-2xl">
+    <header>
+      <h1 class="text-2xl text-center m-8 text-blue-400 font-semibold mx-auto"><a href="/garden/">Cuaderno con ideas de José Ignacio Sbruzzi</a></h1>
+    </header>
+
+    <main>
+      <div class="prose">
+  <h1>How I imported wordpress.com content into my 11ty blog</h1>
+  
+  <time datetime="2022-03-27">27 Mar 2022</time>
+  
+  <ul>
+<li>Step 1: use <a href="http://wordpress.com">wordpress.com</a> <a href="https://wordpress.com/export">export tool</a> to download an xml that contains all data from the blog. It is emailed to you in an email!</li>
+<li>Step 2: use the following python script to extract posts and pages from your wordpress blog.</li>
+</ul>
+<pre><code>import xml.etree.ElementTree as ET
+import sys
+import os
+from datetime import datetime
+
+def convert_datetime(sbest,s2):
+    try:
+        d = datetime.strptime(sbest,&quot;%Y-%m-%d %H:%M:%S&quot;)
+        return d.isoformat()
+    except:
+        try:
+            d = datetime.strptime(s2,&quot;%Y-%m-%d %H:%M:%S&quot;)
+            return d.isoformat()
+        except:
+            print(&quot;NOPE&quot;)
+            print(sbest)
+            print(s2)
+
+filename = sys.argv[1]
+tree = ET.parse(filename)
+root = tree.getroot()
+items = [child for child in root[0] if child.tag=='item']
+ns = {
+    &quot;wp&quot;:&quot;http://wordpress.org/export/1.2/&quot;,
+    &quot;content&quot;:&quot;http://purl.org/rss/1.0/modules/content/&quot;
+}
+directory = filename+&quot;-posts&quot;
+os.mkdir(directory)
+for item in items:
+    title=item.find(&quot;title&quot;).text
+    link=item.find(&quot;link&quot;).text
+    pub_date=item.find(&quot;pubDate&quot;).text
+    content=getattr(item.find(&quot;content:encoded&quot;,ns),'text','nothing') or &quot;empty&quot;
+    post_date=item.find(&quot;wp:post_date_gmt&quot;,ns).text
+    post_modified_gmt=item.find(&quot;wp:post_modified_gmt&quot;,ns).text
+    post_name=item.find(&quot;wp:post_name&quot;,ns).text
+    post_id=item.find(&quot;wp:post_id&quot;,ns).text
+    post_type=item.find(&quot;wp:post_type&quot;,ns).text
+    status=item.find(&quot;wp:status&quot;,ns).text
+    if not content:
+        continue
+    if not post_type=='post' and not post_type=='page':
+        continue
+    try:
+        with open(directory+&quot;/wp-en-&quot;+status+&quot;-&quot;+post_id+&quot;.md&quot;,&quot;w&quot;) as output:
+            output.write(&quot;---\n&quot;)
+            if title: output.write(&quot;title: '&quot;+title+&quot;'\n&quot;)
+            if post_type: output.write(&quot;post_type: '&quot;+post_type+&quot;'\n&quot;)
+            if link: output.write(&quot;source: '&quot;+link+&quot;'\n&quot;)
+            if pub_date: output.write(&quot;pub_date: '&quot;+pub_date+&quot;'\n&quot;)
+            if post_date: output.write(&quot;post_date: '&quot;+post_date+&quot;'\n&quot;)
+            if post_modified_gmt: output.write(&quot;post_modified_gmt: '&quot;+post_modified_gmt+&quot;'\n&quot;)
+            if post_name: output.write(&quot;post_name: '&quot;+post_name+&quot;'\n&quot;)
+            d = convert_datetime(post_modified_gmt, post_date)
+            if d: 
+                output.write(&quot;date: '&quot;+d+&quot;'\n&quot;)
+            else:
+                print(post_id+&quot; has no date&quot;)
+            if post_id: output.write(&quot;post_id: '&quot;+post_id+&quot;'\n&quot;)
+            output.write(&quot;&quot;&quot;tags:
+    - soyyomakesgames
+    - teenage
+    - nerd
+&quot;&quot;&quot;)
+            output.write(&quot;---\n&quot;)
+            if content: output.write(content)
+    except Exception as e:
+        print(&quot;failed to export &quot;+post_id)
+        print(e)
+    
+</code></pre>
+
+  <hr>
+  <ul><li>Next: <a href="/garden/lo_importante.html">Lo importante: Hacer lo que vine a hacer</a></li><li>Previous: <a href="/garden/ostep.html">Resumen de ostep.org</a></li>
+  </ul>
+</div>
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /garden/import.html -->
+  </body>
+</html>
