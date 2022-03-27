@@ -5,7 +5,7 @@
 	
 	<link href="https://jisbruzzi.github.io/garden/feed/feed.xml" rel="self"/>
 	<link href="https://jisbruzzi.github.io/garden"/>
-	<updated>2022-03-24T14:11:37Z</updated>
+	<updated>2022-03-27T18:15:02Z</updated>
 	<id>https://jisbruzzi.github.io/garden</id>
 	<author>
 		<name>José Ignacio Sbruzzi</name>
@@ -15,7 +15,7 @@
 	<entry>
 		<title>Tareas pendientes de este digital garden</title>
 		<link href="https://jisbruzzi.github.io/garden/pendientes.html"/>
-		<updated>2022-03-24T14:11:37Z</updated>
+		<updated>2022-03-27T18:15:02Z</updated>
 		<id>https://jisbruzzi.github.io/garden/pendientes.html</id>
 		<content type="html">&lt;h1 id=&quot;tareas&quot; tabindex=&quot;-1&quot;&gt;Tareas &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/pendientes.html#tareas&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
@@ -55,7 +55,7 @@
 	<entry>
 		<title>Lo importante: Hacer lo que vine a hacer</title>
 		<link href="https://jisbruzzi.github.io/garden/lo_importante.html"/>
-		<updated>2022-03-24T14:11:37Z</updated>
+		<updated>2022-03-27T18:15:02Z</updated>
 		<id>https://jisbruzzi.github.io/garden/lo_importante.html</id>
 		<content type="html">&lt;p&gt;Esta nota se basa en: &lt;a href=&quot;https://youtu.be/52LKIWQ-ALY&quot;&gt;https://youtu.be/52LKIWQ-ALY&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Cosas que no dan felicidad en la vida:&lt;/p&gt;
@@ -179,6 +179,29 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;10.-multiprocessor-scheduling-(advanced)&quot; tabindex=&quot;-1&quot;&gt;10. Multiprocessor Scheduling (Advanced) &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/ostep.html#10.-multiprocessor-scheduling-(advanced)&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;PENDIENTE&lt;/p&gt;
+&lt;h1 id=&quot;13.-the-abstraction:-address-spaces&quot; tabindex=&quot;-1&quot;&gt;13. The Abstraction: Address Spaces &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/ostep.html#13.-the-abstraction:-address-spaces&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;(nada)&lt;/p&gt;
+&lt;h1 id=&quot;14.-interlude:-memory-api&quot; tabindex=&quot;-1&quot;&gt;14. Interlude: Memory API &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/ostep.html#14.-interlude:-memory-api&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;malloc: lib C&lt;/li&gt;
+&lt;li&gt;free: lib C&lt;/li&gt;
+&lt;li&gt;syscalls: brk, sbrk. Disminuyen el valor de break del heap, permiten utilizar mayor parte de la memoria&lt;/li&gt;
+&lt;li&gt;mmap (syscall): hace otra cosa que no es malloc ni free&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;15.-mechanism:-address-translation&quot; tabindex=&quot;-1&quot;&gt;15. Mechanism: Address Translation &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/ostep.html#15.-mechanism:-address-translation&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;base and bound virtualization:
+&lt;ul&gt;
+&lt;li&gt;base: offset para operaciones de memoria&lt;/li&gt;
+&lt;li&gt;bound: límite para operaciones de memoria&lt;/li&gt;
+&lt;li&gt;hardware enforced with exception mechanisms&lt;/li&gt;
+&lt;li&gt;only set in privileged mode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;free list: estructura que dice qué bloques están libres&lt;/li&gt;
+&lt;li&gt;es posible mover la memoria usada por cierto proceso al switchearlo aprovechando este mecanismo.&lt;/li&gt;
+&lt;/ul&gt;
 </content>
 	</entry>
 	

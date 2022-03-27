@@ -111,6 +111,29 @@
 </li>
 </ul>
 <h1 id="10.-multiprocessor-scheduling-(advanced)" tabindex="-1">10. Multiprocessor Scheduling (Advanced) <a class="direct-link" href="#10.-multiprocessor-scheduling-(advanced)" aria-hidden="true">#</a></h1>
+<p>PENDIENTE</p>
+<h1 id="13.-the-abstraction:-address-spaces" tabindex="-1">13. The Abstraction: Address Spaces <a class="direct-link" href="#13.-the-abstraction:-address-spaces" aria-hidden="true">#</a></h1>
+<p>(nada)</p>
+<h1 id="14.-interlude:-memory-api" tabindex="-1">14. Interlude: Memory API <a class="direct-link" href="#14.-interlude:-memory-api" aria-hidden="true">#</a></h1>
+<ul>
+<li>malloc: lib C</li>
+<li>free: lib C</li>
+<li>syscalls: brk, sbrk. Disminuyen el valor de break del heap, permiten utilizar mayor parte de la memoria</li>
+<li>mmap (syscall): hace otra cosa que no es malloc ni free</li>
+</ul>
+<h1 id="15.-mechanism:-address-translation" tabindex="-1">15. Mechanism: Address Translation <a class="direct-link" href="#15.-mechanism:-address-translation" aria-hidden="true">#</a></h1>
+<ul>
+<li>base and bound virtualization:
+<ul>
+<li>base: offset para operaciones de memoria</li>
+<li>bound: límite para operaciones de memoria</li>
+<li>hardware enforced with exception mechanisms</li>
+<li>only set in privileged mode</li>
+</ul>
+</li>
+<li>free list: estructura que dice qué bloques están libres</li>
+<li>es posible mover la memoria usada por cierto proceso al switchearlo aprovechando este mecanismo.</li>
+</ul>
 
   <hr>
   <ul><li>Next: <a href="/garden/lo_importante.html">Lo importante: Hacer lo que vine a hacer</a></li><li>Previous: <a href="/garden/cheatsheet-vue3.html">Cheatsheet vue 3</a></li>
