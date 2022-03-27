@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class to modify the speed of a sound: AS3</title>
+    <meta name="description" content="Blog de José Ignacio Sbruzzi.">
+    <link rel="stylesheet" href="/garden/style.css">
+    <link rel="stylesheet" href="/garden/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/garden/feed/feed.xml" type="application/atom+xml" title="Cuaderno con ideas de José Ignacio Sbruzzi">
+    <link rel="alternate" href="/garden/feed/feed.json" type="application/json" title="Cuaderno con ideas de José Ignacio Sbruzzi">
+  </head>
+  <body>
+  <div class="container mx-auto p-4 max-w-2xl">
+    <header>
+      <h1 class="text-2xl text-center m-8 text-blue-400 font-semibold mx-auto"><a href="/garden/">Cuaderno con ideas de José Ignacio Sbruzzi</a></h1>
+    </header>
+
+    <main>
+      <div class="prose">
+  <h1>Class to modify the speed of a sound: AS3</h1>
+  
+  <time datetime="2013-01-01">01 Jan 2013</time><a href="/garden/tags/soyyomakesgames/" class="post-tag">soyyomakesgames</a><a href="/garden/tags/teenage/" class="post-tag">teenage</a><a href="/garden/tags/nerd/" class="post-tag">nerd</a>
+  
+  <p>For the game I am making, I needed a class to change the duration and frequency of a sound, as there is the possibility to slow down time.</p>
+<p>My first solution was to use this code: <a href="http://www.mcfunkypants.com/2011/as3-pitch-shift-mp3/">http://www.mcfunkypants.com/2011/as3-pitch-shift-mp3/</a>. But it came out being extremely hard to read and modify. I expended all my day (I think almost 9 hours) trying to simply add the capability of playing not-looping sounds, wich this class didn't include. That was because of how unclear the code was to me: it has almost no comments at all, and the loop inside the onSampleData event is just unreadable.</p>
+<p>I must add that, althought the code was supposed to play sound effects in a game, it's very poor in performance, so when you play more than one FrequencyChangeSound at the same time, your game could get some low FPSs.  I'll program a sound player class to do one single onSampleData event (instead of one for each sound), and get better performance.</p>
+<p> </p>
+<p>So here's the code:</p>
+<p><a href="https://gist.github.com/4424117">https://gist.github.com/4424117</a></p>
+
+  <hr>
+  <ul><li>Next: <a href="/garden/soyyomakesgames/wp-en-publish-131.html">Missile Walker</a></li><li>Previous: <a href="/garden/soyyomakesgames/wp-en-publish-123.html">59:99</a></li>
+  </ul>
+</div>
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /garden/soyyomakesgames/wp-en-publish-128.html -->
+  </body>
+</html>

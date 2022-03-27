@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color-Absorption</title>
+    <meta name="description" content="Blog de José Ignacio Sbruzzi.">
+    <link rel="stylesheet" href="/garden/style.css">
+    <link rel="stylesheet" href="/garden/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/garden/feed/feed.xml" type="application/atom+xml" title="Cuaderno con ideas de José Ignacio Sbruzzi">
+    <link rel="alternate" href="/garden/feed/feed.json" type="application/json" title="Cuaderno con ideas de José Ignacio Sbruzzi">
+  </head>
+  <body>
+  <div class="container mx-auto p-4 max-w-2xl">
+    <header>
+      <h1 class="text-2xl text-center m-8 text-blue-400 font-semibold mx-auto"><a href="/garden/">Cuaderno con ideas de José Ignacio Sbruzzi</a></h1>
+    </header>
+
+    <main>
+      <div class="prose">
+  <h1>Color-Absorption</h1>
+  
+  <time datetime="2013-02-14">14 Feb 2013</time><a href="/garden/tags/pepenachohacejuegos/" class="post-tag">pepenachohacejuegos</a><a href="/garden/tags/teenage/" class="post-tag">teenage</a><a href="/garden/tags/nerd/" class="post-tag">nerd</a>
+  
+  <p>Color Absorption es un juego que hice para una jam llamada Game Prototyping Challenge v16. Organizan <a href="http://news.gameprototypechallenge.com/faq">una jam</a> cada dos meses en las que tenés que hacer un juego a partir de dos temas que te dan. Estos temas no son necesariamente opuestos... pero tienen poca (si no ninguna) relación entre si.</p>
+<p>Hace bastante tiempo tenía una idea de un shooter super-simple, que usaría como promer proyecto en java... pero como nunca me puse a programar java, quedó en el aire. La idea era que cada persona fuera un cuadrado diferente, que se mueva y dispare en 4 direcciones. Así, en un entorno 2D generado al azar o por los mismos usuarios, surgirían diferentes estrategias de equipo (chat de voz o sistema simple de comunicación por medio). Mi idea también vendría acompañada de ciertas mecánicas simples que no voy a postear acá. En una de esas, alguien me roba la idea y se llena de plata.</p>
+<p>Bueno, la cosa es que la idea no tenía nada que ver con &quot;cuatro colores&quot; ni &quot;absorbción&quot; (los temas de la jam). Así que terminé mezclando la idea de antes con esos temas y surgió color-absorption.</p>
+<p>Topológicamente hablando (que palabrita eh), es bastante parecida a mi idea previa: te movés en 4 direcciones, disparás en 4 direcciones. Pero en términos de las mecánicas, es muy diferente. En vez de ser un juego por equipos, se juega todos contra todos. Además, hay diferentes clases con ventajas distintas. Cada uno supone una forma un poco distinta de jugar.</p>
+<ul>
+	<li><span style="line-height:13px;">Sniper: Recarga lento, pero el tiro es más rápido.</span></li>
+	<li>Lanzacohetes: Dispara balas lentas que explotan.</li>
+	<li>Rápido: es el más rápido.</li>
+	<li>Sobreviviente: Es la clase que más me gusta. Tiene cuatro escudos, uno para cada lado. Solamente podés matarlo si destruiste el escudo que cubre el lado desde el cual disparás anteriormente.</li>
+</ul>
+&nbsp;
+<p>El giro significativo (que aportó el tema &quot;absorbción&quot; de la GPC) es que, cuando un jugador es asesinado, cambia de clase con el que lo mató. Así, un jugador en cierta situación puede dejarse matar por otro en particular para robarle la clase.</p>
+<p>De los 8 días de la jam, sólo pude trabajar en el juego durante 5, después de todo tengo un poco de vida. Así que no pude implementar el onlinbe multiplayer. Mi salida fué hacer IA con un algoritmo de pathfinding. De nuevo, por razones de tiempo, usé uno poco optimizado que encontré en wikipedia, <a href="http://en.wikipedia.org/wiki/Pathfinding#Sample_algorithm">acá</a> (bajo el subtítulo &quot;Sample Algorithm&quot;), que -creo- es el de Dijkstra, explicado sintéticamente en la misma página.</p>
+<p>Otra cosa sobre la que quiero llamar la atención es el generador de mapas al azar. Todos los mapas tienen su eje de simetría en el medio para que los jugadores spawneen en igualdad de condiciones. Esto hace que los mapas sean más aburridos, pero me pareció mejor solución (y más interesante de implementar) que hacer los mapas yo mismo. Si hubiera resuelto el tema de los mapas de la segunda forma, podría haber balanceado el spawn point de los jugadores sin recurrir a la simetría.</p>
+<p> </p>
+<p>Faltaron GFX, faltaron GFX, faltaron GFX. Con ellos, el juego sería muchísimo más visualmente llamativo.</p>
+<p> </p>
+<p> </p>
+<p>Se puede jugar acá:</p>
+<p><a href="http://gamejolt.com/games/shooter/color-absorption/12293/">http://gamejolt.com/games/shooter/color-absorption/12293/</a></p>
+<p>Algunas Imágenes:</p>
+<p> </p>
+<p> </p>
+<p>[caption id=&quot;&quot; align=&quot;alignnone&quot; width=&quot;640&quot;]<a href="http://images2.cdn.gamejolt.com/data/games/12293/screenshots/12293_19731.jpg"><img title="Los cohetes no están del todo bien hechos." alt="Los cohetes no están del todo bien hechos." src="http://images2.cdn.gamejolt.com/data/games/12293/screenshots/12293_19731.jpg" width="640" height="480" /></a> Los cohetes no están del todo bien hechos. Mueven la balanza muy a favor de un jugador en específico.[/caption]</p>
+<p> </p>
+<img class="alignnone" alt="" src="http://images2.cdn.gamejolt.com/data/games/12293/screenshots/12293_19730.jpg" width="640" height="480" />
+  <hr>
+  <ul><li>Next: <a href="/garden/pepenachohacejuegos/wp-es-publish-177.html">Blog</a></li><li>Previous: <a href="/garden/pepenachohacejuegos/wp-es-publish-248.html">Variables en 4 minutos - Aprender GML</a></li>
+  </ul>
+</div>
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /garden/pepenachohacejuegos/wp-es-publish-360.html -->
+  </body>
+</html>

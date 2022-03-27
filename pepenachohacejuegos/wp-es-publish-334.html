@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase para modificar la velocidad de un sonido mp3: AS3</title>
+    <meta name="description" content="Blog de José Ignacio Sbruzzi.">
+    <link rel="stylesheet" href="/garden/style.css">
+    <link rel="stylesheet" href="/garden/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/garden/feed/feed.xml" type="application/atom+xml" title="Cuaderno con ideas de José Ignacio Sbruzzi">
+    <link rel="alternate" href="/garden/feed/feed.json" type="application/json" title="Cuaderno con ideas de José Ignacio Sbruzzi">
+  </head>
+  <body>
+  <div class="container mx-auto p-4 max-w-2xl">
+    <header>
+      <h1 class="text-2xl text-center m-8 text-blue-400 font-semibold mx-auto"><a href="/garden/">Cuaderno con ideas de José Ignacio Sbruzzi</a></h1>
+    </header>
+
+    <main>
+      <div class="prose">
+  <h1>Clase para modificar la velocidad de un sonido mp3: AS3</h1>
+  
+  <time datetime="2013-02-25">25 Feb 2013</time><a href="/garden/tags/pepenachohacejuegos/" class="post-tag">pepenachohacejuegos</a><a href="/garden/tags/teenage/" class="post-tag">teenage</a><a href="/garden/tags/nerd/" class="post-tag">nerd</a>
+  
+  <p>Para el juego que estuve haciendo (Missile Walker, que postearé acá en aproximadamente dos semanas), necesitaba usar una clase que disminuya la velocidad del audio. Mi primera solución fué tomar este código: <a href="http://www.mcfunkypants.com/2011/as3-pitch-shift-mp3/">http://www.mcfunkypants.com/2011/as3-pitch-shift-mp3/</a> . Pero hubo un problema: esa clase no consideraba casos en el que el sonido no tenia que loopear. Entonces decidí editarla. Entre mi desconocimiento de la clase Sound y lo ilegible de ese código, estuve cerca de 9 horas frente a mi PC rompiéndome la cabeza y enojándome. Al final, no logré adaptar la clase a las necesidades de un efecto de sonido, terminé usando la clase Sfx de Flashpunk.</p>
+<p>En fin, si entran al link que dejé mas arriba, verán que esa clase está muy poco comentada, y que el código no es para nada facil de interpretar... francamente tiene algunas vueltas que me marean mucho. Por lo tanto,agarré el problema por el lado metódico y creé mi propia clase explicando cada detallito que se pueda imaginar.</p>
+<p>Aunque el objetivo de la clase es que sea utilizada en juegos donde hay distorción de sonido, cuando se reproduce más de uno, el FPS baja muchísimo. Por eso, para agregarla a mi juego voy a tener que programar un &quot;reproductor de sonidos: una clase que unifique las tareas para que el evento onSampleData suceda sólo una vez.</p>
+<p>Es eso, acá está el código:</p>
+<p><a href="https://gist.github.com/4424117">https://gist.github.com/4424117</a></p>
+
+  <hr>
+  <ul><li>Next: <a href="/garden/pepenachohacejuegos/wp-es-publish-370.html">Serie de videotutoriales: aprender GML en 20 minutos</a></li><li>Previous: <a href="/garden/pepenachohacejuegos/wp-es-publish-177.html">Blog</a></li>
+  </ul>
+</div>
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /garden/pepenachohacejuegos/wp-es-publish-334.html -->
+  </body>
+</html>
