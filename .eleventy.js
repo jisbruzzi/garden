@@ -53,6 +53,17 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("filterTagList", filterTagList)
 
+  function groupByYear(posts) {
+    const groups = {}
+    posts.forEach((post)=>{
+      const year = post.date.getFullYear();
+      groups[year] = (groups[year] ?? []).concat([post])
+    })
+    return Object.entries(groups).sort((a,b) => a[0] - b[0])
+  }
+
+  eleventyConfig.addFilter("groupByYear", groupByYear)
+
   // Create an array of all tags
   eleventyConfig.addCollection("tagList", function(collection) {
     let tagSet = new Set();
