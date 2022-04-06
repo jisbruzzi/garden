@@ -28,7 +28,7 @@ tags:
 - Post sobre generadores de sitios estáticos que compara gatsby, nextjs, hugo 11ty
 - Postmorten sobre la aplicación de técnicas de gestión de avanzada para la organización de un casamiento en 3 meses
 - Traer posts que están en pepenachohacejuegos.wordpress.com [ DONE ]
-- Traer la galería de videojuegos de pepenachohacejuegos.wordpress.com 
+- Traer la galería de videojuegos de pepenachohacejuegos.wordpress.com [ ? ]
 - Descaargar las imágenes que están linkeadas fuera de este garden a este repo
 - Arreglar artefactos de los posts de wordpress relacionados a embeds.
 - Traer material de catequesis

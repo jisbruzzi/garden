@@ -86,3 +86,27 @@ PENDIENTE
   - only set in privileged mode
 - free list: estructura que dice qué bloques están libres
 - es posible mover la memoria usada por cierto proceso al switchearlo aprovechando este mecanismo.
+
+# 16. Segmentation
+
+- segment: a contiguous portion of the address space of a particular length
+- logically-different segments: code, stack, and heap
+- a base and bounds pair per segment
+- top 2 bits: segment. Bottom bits: offset.
+- Segments can grow positive or negative
+- Protection: can current process access this segment? Used for code sharing. e.g. Read-Execute, Read-write.
+- Fine-grained segmentation: 100s of segments. Not used anymore.
+- bounds reg can grow with `sbrk`
+- external fragmentation: many small holes in memory makes growing segments hard. Several algorithms exist to solve this problem. None is perfect.
+
+# 17. Free Space Management
+
+- assumptions:
+  - Interface:
+    - free(void* ptr)
+    - void* malloc(size_t size)
+  - free list to track used space in the `heap`
+  - external fragmentation: outside the concern of the process
+  - memory cannot be relocated (compaction impossible)
+  - allocator manages contiguous region
+- Low-level mechanisms
