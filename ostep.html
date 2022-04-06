@@ -134,6 +134,36 @@
 <li>free list: estructura que dice qué bloques están libres</li>
 <li>es posible mover la memoria usada por cierto proceso al switchearlo aprovechando este mecanismo.</li>
 </ul>
+<h1 id="16.-segmentation" tabindex="-1">16. Segmentation <a class="direct-link" href="#16.-segmentation" aria-hidden="true">#</a></h1>
+<ul>
+<li>segment: a contiguous portion of the address space of a particular length</li>
+<li>logically-different segments: code, stack, and heap</li>
+<li>a base and bounds pair per segment</li>
+<li>top 2 bits: segment. Bottom bits: offset.</li>
+<li>Segments can grow positive or negative</li>
+<li>Protection: can current process access this segment? Used for code sharing. e.g. Read-Execute, Read-write.</li>
+<li>Fine-grained segmentation: 100s of segments. Not used anymore.</li>
+<li>bounds reg can grow with <code>sbrk</code></li>
+<li>external fragmentation: many small holes in memory makes growing segments hard. Several algorithms exist to solve this problem. None is perfect.</li>
+</ul>
+<h1 id="17.-free-space-management" tabindex="-1">17. Free Space Management <a class="direct-link" href="#17.-free-space-management" aria-hidden="true">#</a></h1>
+<ul>
+<li>assumptions:
+<ul>
+<li>Interface:
+<ul>
+<li>free(void* ptr)</li>
+<li>void* malloc(size_t size)</li>
+</ul>
+</li>
+<li>free list to track used space in the <code>heap</code></li>
+<li>external fragmentation: outside the concern of the process</li>
+<li>memory cannot be relocated (compaction impossible)</li>
+<li>allocator manages contiguous region</li>
+</ul>
+</li>
+<li>Low-level mechanisms</li>
+</ul>
 
   <hr>
   <ul><li>Next: <a href="/garden/import.html">How I imported wordpress.com content into my 11ty blog</a></li><li>Previous: <a href="/garden/cheatsheet-vue3.html">Cheatsheet vue 3</a></li>

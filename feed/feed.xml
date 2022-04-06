@@ -5,7 +5,7 @@
 	
 	<link href="https://jisbruzzi.github.io/garden/feed/feed.xml" rel="self"/>
 	<link href="https://jisbruzzi.github.io/garden"/>
-	<updated>2022-03-27T23:11:35Z</updated>
+	<updated>2022-04-06T22:03:56Z</updated>
 	<id>https://jisbruzzi.github.io/garden</id>
 	<author>
 		<name>José Ignacio Sbruzzi</name>
@@ -15,7 +15,7 @@
 	<entry>
 		<title>Tareas pendientes de este digital garden</title>
 		<link href="https://jisbruzzi.github.io/garden/pendientes.html"/>
-		<updated>2022-03-27T23:11:35Z</updated>
+		<updated>2022-04-06T22:03:56Z</updated>
 		<id>https://jisbruzzi.github.io/garden/pendientes.html</id>
 		<content type="html">&lt;h1 id=&quot;tareas&quot; tabindex=&quot;-1&quot;&gt;Tareas &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/pendientes.html#tareas&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
@@ -46,7 +46,7 @@
 &lt;li&gt;Post sobre generadores de sitios estáticos que compara gatsby, nextjs, hugo 11ty&lt;/li&gt;
 &lt;li&gt;Postmorten sobre la aplicación de técnicas de gestión de avanzada para la organización de un casamiento en 3 meses&lt;/li&gt;
 &lt;li&gt;Traer posts que están en &lt;a href=&quot;http://pepenachohacejuegos.wordpress.com/&quot;&gt;pepenachohacejuegos.wordpress.com&lt;/a&gt; [ DONE ]&lt;/li&gt;
-&lt;li&gt;Traer la galería de videojuegos de &lt;a href=&quot;http://pepenachohacejuegos.wordpress.com/&quot;&gt;pepenachohacejuegos.wordpress.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Traer la galería de videojuegos de &lt;a href=&quot;http://pepenachohacejuegos.wordpress.com/&quot;&gt;pepenachohacejuegos.wordpress.com&lt;/a&gt; [ ? ]&lt;/li&gt;
 &lt;li&gt;Descaargar las imágenes que están linkeadas fuera de este garden a este repo&lt;/li&gt;
 &lt;li&gt;Arreglar artefactos de los posts de wordpress relacionados a embeds.&lt;/li&gt;
 &lt;li&gt;Traer material de catequesis&lt;/li&gt;
@@ -57,7 +57,7 @@
 	<entry>
 		<title>Lo importante: Hacer lo que vine a hacer</title>
 		<link href="https://jisbruzzi.github.io/garden/lo_importante.html"/>
-		<updated>2022-03-27T23:11:35Z</updated>
+		<updated>2022-04-06T22:03:56Z</updated>
 		<id>https://jisbruzzi.github.io/garden/lo_importante.html</id>
 		<content type="html">&lt;p&gt;Esta nota se basa en: &lt;a href=&quot;https://youtu.be/52LKIWQ-ALY&quot;&gt;https://youtu.be/52LKIWQ-ALY&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Cosas que no dan felicidad en la vida:&lt;/p&gt;
@@ -90,7 +90,7 @@
 	<entry>
 		<title>How I imported wordpress.com content into my 11ty blog</title>
 		<link href="https://jisbruzzi.github.io/garden/import.html"/>
-		<updated>2022-03-27T23:11:35Z</updated>
+		<updated>2022-04-06T22:03:56Z</updated>
 		<id>https://jisbruzzi.github.io/garden/import.html</id>
 		<content type="html">&lt;ul&gt;
 &lt;li&gt;Step 1: use &lt;a href=&quot;http://wordpress.com/&quot;&gt;wordpress.com&lt;/a&gt; &lt;a href=&quot;https://wordpress.com/export&quot;&gt;export tool&lt;/a&gt; to download an xml that contains all data from the blog. It is emailed to you in an email!&lt;/li&gt;
@@ -286,6 +286,36 @@ for item in items:
 &lt;/li&gt;
 &lt;li&gt;free list: estructura que dice qué bloques están libres&lt;/li&gt;
 &lt;li&gt;es posible mover la memoria usada por cierto proceso al switchearlo aprovechando este mecanismo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;16.-segmentation&quot; tabindex=&quot;-1&quot;&gt;16. Segmentation &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/ostep.html#16.-segmentation&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;segment: a contiguous portion of the address space of a particular length&lt;/li&gt;
+&lt;li&gt;logically-different segments: code, stack, and heap&lt;/li&gt;
+&lt;li&gt;a base and bounds pair per segment&lt;/li&gt;
+&lt;li&gt;top 2 bits: segment. Bottom bits: offset.&lt;/li&gt;
+&lt;li&gt;Segments can grow positive or negative&lt;/li&gt;
+&lt;li&gt;Protection: can current process access this segment? Used for code sharing. e.g. Read-Execute, Read-write.&lt;/li&gt;
+&lt;li&gt;Fine-grained segmentation: 100s of segments. Not used anymore.&lt;/li&gt;
+&lt;li&gt;bounds reg can grow with &lt;code&gt;sbrk&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;external fragmentation: many small holes in memory makes growing segments hard. Several algorithms exist to solve this problem. None is perfect.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;17.-free-space-management&quot; tabindex=&quot;-1&quot;&gt;17. Free Space Management &lt;a class=&quot;direct-link&quot; href=&quot;https://jisbruzzi.github.io/garden/ostep.html#17.-free-space-management&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;assumptions:
+&lt;ul&gt;
+&lt;li&gt;Interface:
+&lt;ul&gt;
+&lt;li&gt;free(void* ptr)&lt;/li&gt;
+&lt;li&gt;void* malloc(size_t size)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;free list to track used space in the &lt;code&gt;heap&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;external fragmentation: outside the concern of the process&lt;/li&gt;
+&lt;li&gt;memory cannot be relocated (compaction impossible)&lt;/li&gt;
+&lt;li&gt;allocator manages contiguous region&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Low-level mechanisms&lt;/li&gt;
 &lt;/ul&gt;
 </content>
 	</entry>
